@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ndt_gslam: /home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/registration/correlative_estimation_tools.h File Reference</title>
+<title>ndt_gslam: /home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/registration/correlative_estimation_tools.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -112,31 +112,33 @@ $(document).ready(function(){initNavTree('correlative__estimation__tools_8h.html
 <div class="title">correlative_estimation_tools.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;Eigen/Dense&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;pcl/point_cloud.h&gt;</code><br />
 <code>#include &lt;ros/ros.h&gt;</code><br />
+<code>#include &lt;Eigen/Dense&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;pcl/point_cloud.h&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for correlative_estimation_tools.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="correlative__estimation__tools_8h__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2registration_2correlative__estimation__tools_8h" alt=""/></div>
+<div class="center"><img src="correlative__estimation__tools_8h__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2registration_2correlative__estimation__tools_8h" alt=""/></div>
+<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2registration_2correlative__estimation__tools_8h" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2registration_2correlative__estimation__tools_8h">
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="correlative__estimation__tools_8h__dep__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2registration_2correlative__estimation__tools_8hdep" alt=""/></div>
-<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2registration_2correlative__estimation__tools_8hdep" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2registration_2correlative__estimation__tools_8hdep">
-<area shape="rect" id="node2" href="correlative__estimation2d_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/registration\l/correlative_estimation2d.h" alt="" coords="423,139,605,224"/>
-<area shape="rect" id="node3" href="d2d__ndt2d__robust_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/registration\l/d2d_ndt2d_robust.h" alt="" coords="293,272,476,357"/>
-<area shape="rect" id="node9" href="ndt2d__visual_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/registration\l/ndt2d_visual.cpp" alt="" coords="412,413,616,483"/>
-<area shape="rect" id="node4" href="ndt__scanmatcher_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/slam_optimizer\l/ndt_scanmatcher.h" alt="" coords="181,405,388,491"/>
-<area shape="rect" id="node5" href="ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="102,539,273,624"/>
-<area shape="rect" id="node8" href="gauss__newton__optimalizer__test_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/test/slam\l_optimizer/gauss_newton\l_optimalizer_test.cpp" alt="" coords="297,539,469,624"/>
-<area shape="rect" id="node6" href="graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/graph\l_slam2d_node.cpp" alt="" coords="5,672,177,743"/>
-<area shape="rect" id="node7" href="ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/ndt\l/ndt_grid2d_merging.cpp" alt="" coords="201,672,365,743"/>
+<div class="center"><img src="correlative__estimation__tools_8h__dep__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2registration_2correlative__estimation__tools_8hdep" alt=""/></div>
+<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2registration_2correlative__estimation__tools_8hdep" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2registration_2correlative__estimation__tools_8hdep">
+<area shape="rect" id="node2" href="correlative__estimation2d_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/registration/correlative\l_estimation2d.h" alt="" coords="424,139,620,224"/>
+<area shape="rect" id="node3" href="d2d__ndt2d__robust_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/registration/d2d\l_ndt2d_robust.h" alt="" coords="315,272,475,357"/>
+<area shape="rect" id="node9" href="ndt2d__visual_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/registration\l/ndt2d_visual.cpp" alt="" coords="434,413,610,483"/>
+<area shape="rect" id="node4" href="ndt__scanmatcher_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/slam_optimizer/ndt\l_scanmatcher.h" alt="" coords="231,405,410,491"/>
+<area shape="rect" id="node5" href="ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt_slam_algorithm.h" alt="" coords="106,539,298,609"/>
+<area shape="rect" id="node8" href="gauss__newton__optimalizer__test_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/test/slam_optimizer\l/gauss_newton_optimalizer_test.cpp" alt="" coords="322,539,557,609"/>
+<area shape="rect" id="node6" href="graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/graph_slam2d\l_node.cpp" alt="" coords="5,657,199,728"/>
+<area shape="rect" id="node7" href="ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/ndt/ndt\l_grid2d_merging.cpp" alt="" coords="223,657,383,728"/>
 </map>
 </div>
 </div>
@@ -151,6 +153,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_smoothing_kernel.html">pcl::ml_corr::SmoothingKernel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html">pcl::ml_corr::LookUpTable&lt; PointType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast lookup table for correlation registration.  <a href="classpcl_1_1ml__corr_1_1_look_up_table.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -179,7 +182,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6bc2876df5f51b64790622082ac4e8d.html">ros</a></li><li class="navelem"><a class="el" href="dir_49b54ca7f98dc469780b4bca0e671444.html">src</a></li><li class="navelem"><a class="el" href="dir_c070981b9104345b29b0156e3101ecab.html">dynamic_slam</a></li><li class="navelem"><a class="el" href="dir_63f1f0c1c21e2a74374163d57611b240.html">graph_slam_uk</a></li><li class="navelem"><a class="el" href="dir_cb510868305aeff0ca901159c1d044c6.html">include</a></li><li class="navelem"><a class="el" href="dir_179f41304957a55d053c624e7367599f.html">graph_slam_uk</a></li><li class="navelem"><a class="el" href="dir_6a0544087ea6f451e6d0ed72f106a944.html">registration</a></li><li class="navelem"><a class="el" href="correlative__estimation__tools_8h.html">correlative_estimation_tools.h</a></li>
+    <li class="navelem"><a class="el" href="dir_b6bc2876df5f51b64790622082ac4e8d.html">ros</a></li><li class="navelem"><a class="el" href="dir_49b54ca7f98dc469780b4bca0e671444.html">src</a></li><li class="navelem"><a class="el" href="dir_c070981b9104345b29b0156e3101ecab.html">dynamic_slam</a></li><li class="navelem"><a class="el" href="dir_38cf5805892936d960f233765c81db67.html">ndt_gslam</a></li><li class="navelem"><a class="el" href="dir_2aaf06a876a2d85b9cba819bfce1389e.html">include</a></li><li class="navelem"><a class="el" href="dir_2af201ac3058b0468d858cac8ed4e7db.html">ndt_gslam</a></li><li class="navelem"><a class="el" href="dir_131df3a51b0037626e041fd9d3b11cc9.html">registration</a></li><li class="navelem"><a class="el" href="correlative__estimation__tools_8h.html">correlative_estimation_tools.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

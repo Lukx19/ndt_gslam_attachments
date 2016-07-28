@@ -135,12 +135,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1ec8b345f618e27d21766934e954780"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#af1ec8b345f618e27d21766934e954780">NDTGrid2DHolder</a> (const <a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#adce2f534d54e28361ccff1e956243b52">GridPtr</a> &amp;data)</td></tr>
 <tr class="separator:af1ec8b345f618e27d21766934e954780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9be355825fdc1a86573bfa9b8d7a5f2"><td class="memItemLeft" align="right" valign="top">Eigen::Vector2d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#ac9be355825fdc1a86573bfa9b8d7a5f2">getCentroid</a> () const </td></tr>
+<tr class="memdesc:ac9be355825fdc1a86573bfa9b8d7a5f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the centroid of the ndt grid.  <a href="#ac9be355825fdc1a86573bfa9b8d7a5f2">More...</a><br /></td></tr>
 <tr class="separator:ac9be355825fdc1a86573bfa9b8d7a5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fe068026f548c0da5671cd8593fa249"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#a3fe068026f548c0da5671cd8593fa249">getRadius</a> () const </td></tr>
+<tr class="memdesc:a3fe068026f548c0da5671cd8593fa249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the radius measured from centroid.  <a href="#a3fe068026f548c0da5671cd8593fa249">More...</a><br /></td></tr>
 <tr class="separator:a3fe068026f548c0da5671cd8593fa249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78edeccc05b24cc7a96901bcbe3284b8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#adce2f534d54e28361ccff1e956243b52">GridPtr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#a78edeccc05b24cc7a96901bcbe3284b8">getData</a> () const </td></tr>
 <tr class="separator:a78edeccc05b24cc7a96901bcbe3284b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed3c601d83cdac84e10f2db42e12f3dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#aed3c601d83cdac84e10f2db42e12f3dd">updatePosition</a> (const Eigen::Vector3d &amp;new_pose)</td></tr>
+<tr class="memdesc:aed3c601d83cdac84e10f2db42e12f3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates origin of the NDT grid.  <a href="#aed3c601d83cdac84e10f2db42e12f3dd">More...</a><br /></td></tr>
 <tr class="separator:aed3c601d83cdac84e10f2db42e12f3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b5d0d81393efe1589072d23c535055f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_n_d_t_grid2_d_holder.html#a2b5d0d81393efe1589072d23c535055f">NDTGrid2DHolder</a> (const PclPtr &amp;data)</td></tr>
 <tr class="separator:a2b5d0d81393efe1589072d23c535055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,7 +328,10 @@ template&lt;typename CellType , typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00022">22</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
+<p>Gets the centroid of NDT grid. </p>
+<dl class="section return"><dt>Returns</dt><dd>The centroid. </dd></dl>
+
+<p>Definition at line <a class="el" href="pcl__holder_8h_source.html#l00025">25</a> of file <a class="el" href="pcl__holder_8h_source.html">pcl_holder.h</a>.</p>
 
 </div>
 </div>
@@ -352,10 +358,10 @@ template&lt;typename CellType , typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the centroid of NDT grid. </p>
+<p>Gets the centroid of the ndt grid. </p>
 <dl class="section return"><dt>Returns</dt><dd>The centroid. </dd></dl>
 
-<p>Definition at line <a class="el" href="pcl__holder_8h_source.html#l00025">25</a> of file <a class="el" href="pcl__holder_8h_source.html">pcl_holder.h</a>.</p>
+<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00027">27</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
 
 </div>
 </div>
@@ -382,7 +388,7 @@ template&lt;typename CellType , typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00030">30</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
+<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00040">40</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
 
 </div>
 </div>
@@ -439,7 +445,10 @@ template&lt;typename CellType , typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00026">26</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
+<p>Gets the radius measured from centroid. </p>
+<dl class="section return"><dt>Returns</dt><dd>The radius. </dd></dl>
+
+<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00036">36</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
 
 </div>
 </div>
@@ -497,7 +506,15 @@ template&lt;typename CellType , typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00035">35</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
+<p>Updates origin of the NDT grid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">new_pose</td><td>The new pose </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="ndt__grid2d__holder_8h_source.html#l00050">50</a> of file <a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a>.</p>
 
 </div>
 </div>
@@ -538,8 +555,8 @@ template&lt;typename CellType , typename PointType &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/<a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a></li>
-<li>/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/<a class="el" href="pcl__holder_8h_source.html">pcl_holder.h</a></li>
+<li>/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/<a class="el" href="ndt__grid2d__holder_8h_source.html">ndt_grid2d_holder.h</a></li>
+<li>/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/<a class="el" href="pcl__holder_8h_source.html">pcl_holder.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

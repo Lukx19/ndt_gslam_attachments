@@ -1,6 +1,6 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_algorithm_interface.h" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_algorithm_interface.h">
-<area shape="rect" id="node2" href="$graph__slam2d__node_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/graph_slam2d_node.h" alt="" coords="5,146,251,217"/>
-<area shape="rect" id="node4" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="275,139,445,224"/>
-<area shape="rect" id="node3" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/graph\l_slam2d_node.cpp" alt="" coords="62,272,234,343"/>
-<area shape="rect" id="node5" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/ndt\l/ndt_grid2d_merging.cpp" alt="" coords="278,272,442,343"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_algorithm_interface.h" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_algorithm_interface.h">
+<area shape="rect" id="node2" href="$graph__slam2d__node_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/graph_slam2d_node.h" alt="" coords="5,124,200,195"/>
+<area shape="rect" id="node4" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt_slam_algorithm.h" alt="" coords="224,124,416,195"/>
+<area shape="rect" id="node3" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/graph_slam2d\l_node.cpp" alt="" coords="14,243,207,313"/>
+<area shape="rect" id="node5" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/ndt/ndt\l_grid2d_merging.cpp" alt="" coords="240,243,400,313"/>
 </map>

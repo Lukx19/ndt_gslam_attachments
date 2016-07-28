@@ -173,9 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1a69d447342de264d3863b3a92947a6"><td class="memItemLeft" align="right" valign="top">virtual visualization_msgs::MarkerArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#aa1a69d447342de264d3863b3a92947a6">getGraphSerialized</a> (const std::string &amp;world_frame_id) const override</td></tr>
 <tr class="memdesc:aa1a69d447342de264d3863b3a92947a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the graph serialized.  <a href="#aa1a69d447342de264d3863b3a92947a6">More...</a><br /></td></tr>
 <tr class="separator:aa1a69d447342de264d3863b3a92947a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad216e0ea61c47ce38d0adcb23b7764"><td class="memItemLeft" align="right" valign="top">virtual graph_slam_uk::NDTMapMsg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#a4ad216e0ea61c47ce38d0adcb23b7764">getNDTMap</a> (const std::string &amp;world_frame_id) const override</td></tr>
-<tr class="memdesc:a4ad216e0ea61c47ce38d0adcb23b7764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ndt map.  <a href="#a4ad216e0ea61c47ce38d0adcb23b7764">More...</a><br /></td></tr>
-<tr class="separator:a4ad216e0ea61c47ce38d0adcb23b7764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25b51f2849517d688edaef70a5e9173"><td class="memItemLeft" align="right" valign="top">virtual ndt_gslam::NDTMapMsg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#ac25b51f2849517d688edaef70a5e9173">getNDTMap</a> (const std::string &amp;world_frame_id) const override</td></tr>
+<tr class="memdesc:ac25b51f2849517d688edaef70a5e9173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ndt map.  <a href="#ac25b51f2849517d688edaef70a5e9173">More...</a><br /></td></tr>
+<tr class="separator:ac25b51f2849517d688edaef70a5e9173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1de87b6210eab96cb163358741e4da"><td class="memItemLeft" align="right" valign="top">virtual PointCloud::Ptr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#a1c1de87b6210eab96cb163358741e4da">getPclMap</a> (const std::string &amp;world_frame_id) const override</td></tr>
 <tr class="memdesc:a1c1de87b6210eab96cb163358741e4da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pcl map.  <a href="#a1c1de87b6210eab96cb163358741e4da">More...</a><br /></td></tr>
 <tr class="separator:a1c1de87b6210eab96cb163358741e4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,8 +209,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a03806114c6a820cd465fa68658a0160d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa8d34a4ff2fcd1d795f903684370042"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#afa8d34a4ff2fcd1d795f903684370042">movedEnough</a> (const <a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#a9ca93fea74414385fb0ffd32a6595a32">Transform</a> &amp;trans, const <a class="el" href="classslamuk_1_1_covariance_wrapper.html">CovarianceWrapper</a> &amp;covar) const </td></tr>
 <tr class="separator:afa8d34a4ff2fcd1d795f903684370042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89442c77cbd2121e3f787cb1ab7af8a5"><td class="memItemLeft" align="right" valign="top">graph_slam_uk::NDTMapMsg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#a89442c77cbd2121e3f787cb1ab7af8a5">toNdtMapMsg</a> (const <a class="el" href="structslamuk_1_1_n_d_t_grid_msg.html">NDTGridMsg</a> &amp;msg, const std::string &amp;fixed_frame) const </td></tr>
-<tr class="separator:a89442c77cbd2121e3f787cb1ab7af8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a49971261bc03152220cb38db21712e"><td class="memItemLeft" align="right" valign="top">ndt_gslam::NDTMapMsg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#a6a49971261bc03152220cb38db21712e">toNdtMapMsg</a> (const <a class="el" href="structslamuk_1_1_n_d_t_grid_msg.html">NDTGridMsg</a> &amp;msg, const std::string &amp;fixed_frame) const </td></tr>
+<tr class="separator:a6a49971261bc03152220cb38db21712e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -381,7 +381,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4ad216e0ea61c47ce38d0adcb23b7764"></a>
+<a class="anchor" id="ac25b51f2849517d688edaef70a5e9173"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -389,7 +389,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual graph_slam_uk::NDTMapMsg slamuk::NdtSlamAlgortihm::getNDTMap </td>
+          <td class="memname">virtual ndt_gslam::NDTMapMsg slamuk::NdtSlamAlgortihm::getNDTMap </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>world_frame_id</em></td><td>)</td>
@@ -412,7 +412,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The ndt map. </dd></dl>
 
-<p>Implements <a class="el" href="classslamuk_1_1_i_slam_algorithm.html#a7de79fa69119cf3f12513fc11dca055b">slamuk::ISlamAlgorithm</a>.</p>
+<p>Implements <a class="el" href="classslamuk_1_1_i_slam_algorithm.html#a73d4fa74aa0d0d295c8450a35944fd6b">slamuk::ISlamAlgorithm</a>.</p>
 
 <p>Definition at line <a class="el" href="ndt__slam__algorithm_8h_source.html#l00062">62</a> of file <a class="el" href="ndt__slam__algorithm_8h_source.html">ndt_slam_algorithm.h</a>.</p>
 
@@ -771,7 +771,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a89442c77cbd2121e3f787cb1ab7af8a5"></a>
+<a class="anchor" id="a6a49971261bc03152220cb38db21712e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -779,7 +779,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">graph_slam_uk::NDTMapMsg slamuk::NdtSlamAlgortihm::toNdtMapMsg </td>
+          <td class="memname">ndt_gslam::NDTMapMsg slamuk::NdtSlamAlgortihm::toNdtMapMsg </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structslamuk_1_1_n_d_t_grid_msg.html">NDTGridMsg</a> &amp;&#160;</td>
           <td class="paramname"><em>msg</em>, </td>
@@ -1469,7 +1469,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/<a class="el" href="ndt__slam__algorithm_8h_source.html">ndt_slam_algorithm.h</a></li>
+<li>/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/<a class="el" href="ndt__slam__algorithm_8h_source.html">ndt_slam_algorithm.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

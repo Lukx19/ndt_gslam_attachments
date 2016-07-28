@@ -7,7 +7,7 @@ var classslamuk_1_1_i_slam_algorithm =
     [ "Transform", "classslamuk_1_1_i_slam_algorithm.html#adbe9b1e7e47433d81c886d97632213d5", null ],
     [ "~ISlamAlgorithm", "classslamuk_1_1_i_slam_algorithm.html#aa27b2b50c6916865af383ecf4fe61c29", null ],
     [ "getGraphSerialized", "classslamuk_1_1_i_slam_algorithm.html#a5eabe3e982f65a04940662e8a69815f4", null ],
-    [ "getNDTMap", "classslamuk_1_1_i_slam_algorithm.html#a7de79fa69119cf3f12513fc11dca055b", null ],
+    [ "getNDTMap", "classslamuk_1_1_i_slam_algorithm.html#a73d4fa74aa0d0d295c8450a35944fd6b", null ],
     [ "getOccupancyGrid", "classslamuk_1_1_i_slam_algorithm.html#a476a006258aded6278e0466f77c984c5", null ],
     [ "getPclMap", "classslamuk_1_1_i_slam_algorithm.html#abc26b25291e12fee8763e0e1744b49ef", null ],
     [ "getPclMap2", "classslamuk_1_1_i_slam_algorithm.html#af6d7f373dc3a7e10a5d80f6b90e8dffe", null ],

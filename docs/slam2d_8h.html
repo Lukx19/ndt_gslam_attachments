@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ndt_gslam: /home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_optimizer/slam2d.h File Reference</title>
+<title>ndt_gslam: /home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_optimizer/slam2d.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -111,13 +111,11 @@ $(document).ready(function(){initNavTree('slam2d_8h.html','');});
 <div class="title">slam2d.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="graph__slam__interfaces_8h_source.html">graph_slam_uk/slam_optimizer/graph_slam_interfaces.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="loop__detector_8h_source.html">graph_slam_uk/slam_optimizer/loop_detector.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="pose__graph_8h_source.html">graph_slam_uk/slam_optimizer/pose_graph.h</a>&gt;</code><br />
-<code>#include &lt;graph_slam_uk/slam_optimizer/rrr_g2o_wrapper.h&gt;</code><br />
-<code>#include &lt;graph_slam_uk/slam_optimizer/rrr_loop_proofer.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="slam2d__policy_8h_source.html">graph_slam_uk/slam_optimizer/slam2d_policy.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="eigen__tools_8h_source.html">graph_slam_uk/utils/eigen_tools.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="graph__slam__interfaces_8h_source.html">ndt_gslam/slam_optimizer/graph_slam_interfaces.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="loop__detector_8h_source.html">ndt_gslam/slam_optimizer/loop_detector.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="pose__graph_8h_source.html">ndt_gslam/slam_optimizer/pose_graph.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="slam2d__policy_8h_source.html">ndt_gslam/slam_optimizer/slam2d_policy.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="eigen__tools_8h_source.html">ndt_gslam/utils/eigen_tools.h</a>&gt;</code><br />
 <code>#include &lt;geometry_msgs/Point.h&gt;</code><br />
 <code>#include &lt;std_msgs/ColorRGBA.h&gt;</code><br />
 <code>#include &lt;visualization_msgs/MarkerArray.h&gt;</code><br />
@@ -134,37 +132,37 @@ $(document).ready(function(){initNavTree('slam2d_8h.html','');});
 <code>#include &lt;g2o/solvers/csparse/linear_solver_csparse.h&gt;</code><br />
 <code>#include &lt;g2o/types/slam2d/edge_se2.h&gt;</code><br />
 <code>#include &lt;g2o/types/slam2d/vertex_se2.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="types__g2o__mixture_8h_source.html">graph_slam_uk/slam_optimizer/max_mixture/types_g2o_mixture.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="edge__se2_switchable_8h_source.html">graph_slam_uk/slam_optimizer/switchable_constraints/edge_se2Switchable.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="edge__switch_prior_8h_source.html">graph_slam_uk/slam_optimizer/switchable_constraints/edge_switchPrior.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="vertex__switch_linear_8h_source.html">graph_slam_uk/slam_optimizer/switchable_constraints/vertex_switchLinear.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="types__g2o__mixture_8h_source.html">ndt_gslam/slam_optimizer/max_mixture/types_g2o_mixture.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="edge__se2_switchable_8h_source.html">ndt_gslam/slam_optimizer/switchable_constraints/edge_se2Switchable.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="edge__switch_prior_8h_source.html">ndt_gslam/slam_optimizer/switchable_constraints/edge_switchPrior.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="vertex__switch_linear_8h_source.html">ndt_gslam/slam_optimizer/switchable_constraints/vertex_switchLinear.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for slam2d.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="slam2d_8h__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2slam__optimizer_2slam2d_8h" alt=""/></div>
-<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2slam__optimizer_2slam2d_8h" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2slam__optimizer_2slam2d_8h">
-<area shape="rect" id="node2" href="graph__slam__interfaces_8h.html" title="graph_slam_uk/slam\l_optimizer/graph_slam\l_interfaces.h" alt="" coords="269,243,422,299"/>
-<area shape="rect" id="node10" href="loop__detector_8h.html" title="graph_slam_uk/slam\l_optimizer/loop_detector.h" alt="" coords="591,146,766,187"/>
-<area shape="rect" id="node11" href="pose__graph_8h.html" title="graph_slam_uk/slam\l_optimizer/pose_graph.h" alt="" coords="1070,250,1234,291"/>
-<area shape="rect" id="node16" href="eigen__tools_8h.html" title="graph_slam_uk/utils\l/eigen_tools.h" alt="" coords="805,250,944,291"/>
-<area shape="rect" id="node22" href="slam2d__policy_8h.html" title="graph_slam_uk/slam\l_optimizer/slam2d_policy.h" alt="" coords="892,146,1071,187"/>
-<area shape="rect" id="node36" href="types__g2o__mixture_8h.html" title="graph_slam_uk/slam\l_optimizer/max_mixture\l/types_g2o_mixture.h" alt="" coords="4010,139,4171,195"/>
-<area shape="rect" id="node45" href="edge__se2_switchable_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/edge_se2Switchable.h" alt="" coords="4659,139,4887,195"/>
-<area shape="rect" id="node47" href="edge__switch_prior_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/edge_switchPrior.h" alt="" coords="1298,139,1505,195"/>
-<area shape="rect" id="node49" href="vertex__switch_linear_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/vertex_switchLinear.h" alt="" coords="1359,243,1582,299"/>
-<area shape="rect" id="node39" href="edge__se2__mixture_8h.html" title="edge_se2_mixture.h" alt="" coords="3764,257,3903,284"/>
-<area shape="rect" id="node41" href="edge__se2__pointxy__mixture_8h.html" title="edge_se2_pointxy_mixture.h" alt="" coords="4090,257,4278,284"/>
-<area shape="rect" id="node44" href="edge__se3__mixture_8h.html" title="edge_se3_mixture.h" alt="" coords="3927,257,4065,284"/>
+<div class="center"><img src="slam2d_8h__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2slam__optimizer_2slam2d_8h" alt=""/></div>
+<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2slam__optimizer_2slam2d_8h" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2slam__optimizer_2slam2d_8h">
+<area shape="rect" id="node2" href="graph__slam__interfaces_8h.html" title="ndt_gslam/slam_optimizer\l/graph_slam_interfaces.h" alt="" coords="217,235,391,277"/>
+<area shape="rect" id="node10" href="loop__detector_8h.html" title="ndt_gslam/slam_optimizer\l/loop_detector.h" alt="" coords="626,131,801,173"/>
+<area shape="rect" id="node11" href="pose__graph_8h.html" title="ndt_gslam/slam_optimizer\l/pose_graph.h" alt="" coords="995,235,1170,277"/>
+<area shape="rect" id="node16" href="eigen__tools_8h.html" title="ndt_gslam/utils/eigen\l_tools.h" alt="" coords="774,235,919,277"/>
+<area shape="rect" id="node20" href="slam2d__policy_8h.html" title="ndt_gslam/slam_optimizer\l/slam2d_policy.h" alt="" coords="941,131,1115,173"/>
+<area shape="rect" id="node34" href="types__g2o__mixture_8h.html" title="ndt_gslam/slam_optimizer\l/max_mixture/types_g2o\l_mixture.h" alt="" coords="3618,124,3793,180"/>
+<area shape="rect" id="node45" href="edge__se2_switchable_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_se2Switchable.h" alt="" coords="4295,124,4470,180"/>
+<area shape="rect" id="node47" href="edge__switch_prior_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_switchPrior.h" alt="" coords="1347,124,1522,180"/>
+<area shape="rect" id="node49" href="vertex__switch_linear_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/vertex_switchLinear.h" alt="" coords="1347,228,1522,284"/>
+<area shape="rect" id="node37" href="edge__se2__mixture_8h.html" title="edge_se2_mixture.h" alt="" coords="3717,243,3856,269"/>
+<area shape="rect" id="node39" href="edge__se2__pointxy__mixture_8h.html" title="edge_se2_pointxy_mixture.h" alt="" coords="3881,243,4069,269"/>
+<area shape="rect" id="node42" href="edge__se3__mixture_8h.html" title="edge_se3_mixture.h" alt="" coords="3555,243,3693,269"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="slam2d_8h__dep__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2slam__optimizer_2slam2d_8hdep" alt=""/></div>
-<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2slam__optimizer_2slam2d_8hdep" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2include_2graph__slam__uk_2slam__optimizer_2slam2d_8hdep">
-<area shape="rect" id="node2" href="ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="102,139,273,224"/>
-<area shape="rect" id="node3" href="graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/graph\l_slam2d_node.cpp" alt="" coords="5,272,177,343"/>
-<area shape="rect" id="node4" href="ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/ndt\l/ndt_grid2d_merging.cpp" alt="" coords="201,272,365,343"/>
+<div class="center"><img src="slam2d_8h__dep__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2slam__optimizer_2slam2d_8hdep" alt=""/></div>
+<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2slam__optimizer_2slam2d_8hdep" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2include_2ndt__gslam_2slam__optimizer_2slam2d_8hdep">
+<area shape="rect" id="node2" href="ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt_slam_algorithm.h" alt="" coords="106,124,298,195"/>
+<area shape="rect" id="node3" href="graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/graph_slam2d\l_node.cpp" alt="" coords="5,243,199,313"/>
+<area shape="rect" id="node4" href="ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/ndt/ndt\l_grid2d_merging.cpp" alt="" coords="223,243,383,313"/>
 </map>
 </div>
 </div>
@@ -185,7 +183,7 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6bc2876df5f51b64790622082ac4e8d.html">ros</a></li><li class="navelem"><a class="el" href="dir_49b54ca7f98dc469780b4bca0e671444.html">src</a></li><li class="navelem"><a class="el" href="dir_c070981b9104345b29b0156e3101ecab.html">dynamic_slam</a></li><li class="navelem"><a class="el" href="dir_63f1f0c1c21e2a74374163d57611b240.html">graph_slam_uk</a></li><li class="navelem"><a class="el" href="dir_cb510868305aeff0ca901159c1d044c6.html">include</a></li><li class="navelem"><a class="el" href="dir_179f41304957a55d053c624e7367599f.html">graph_slam_uk</a></li><li class="navelem"><a class="el" href="dir_5126db22ba08d3967a9a8f13a331a92f.html">slam_optimizer</a></li><li class="navelem"><a class="el" href="slam2d_8h.html">slam2d.h</a></li>
+    <li class="navelem"><a class="el" href="dir_b6bc2876df5f51b64790622082ac4e8d.html">ros</a></li><li class="navelem"><a class="el" href="dir_49b54ca7f98dc469780b4bca0e671444.html">src</a></li><li class="navelem"><a class="el" href="dir_c070981b9104345b29b0156e3101ecab.html">dynamic_slam</a></li><li class="navelem"><a class="el" href="dir_38cf5805892936d960f233765c81db67.html">ndt_gslam</a></li><li class="navelem"><a class="el" href="dir_2aaf06a876a2d85b9cba819bfce1389e.html">include</a></li><li class="navelem"><a class="el" href="dir_2af201ac3058b0468d858cac8ed4e7db.html">ndt_gslam</a></li><li class="navelem"><a class="el" href="dir_a846710aeda14f9246fffb3a085ffa1f.html">slam_optimizer</a></li><li class="navelem"><a class="el" href="slam2d_8h.html">slam2d.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

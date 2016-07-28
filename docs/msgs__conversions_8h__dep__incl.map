@@ -1,6 +1,6 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/utils/msgs_conversions.h" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/utils/msgs_conversions.h">
-<area shape="rect" id="node2" href="$ndt__mapper_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt/ndt\l_mapper.h" alt="" coords="142,139,302,224"/>
-<area shape="rect" id="node3" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="75,272,246,357"/>
-<area shape="rect" id="node5" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/ndt\l/ndt_grid2d_merging.cpp" alt="" coords="201,405,365,476"/>
-<area shape="rect" id="node4" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/graph\l_slam2d_node.cpp" alt="" coords="5,405,177,476"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/utils/msgs_conversions.h" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/utils/msgs_conversions.h">
+<area shape="rect" id="node2" href="$ndt__mapper_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt/ndt_mapper.h" alt="" coords="153,124,321,195"/>
+<area shape="rect" id="node3" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt_slam_algorithm.h" alt="" coords="74,243,266,313"/>
+<area shape="rect" id="node5" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/ndt/ndt\l_grid2d_merging.cpp" alt="" coords="223,361,383,432"/>
+<area shape="rect" id="node4" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/graph_slam2d\l_node.cpp" alt="" coords="5,361,199,432"/>
 </map>

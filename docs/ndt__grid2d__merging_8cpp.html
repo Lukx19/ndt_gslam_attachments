@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ndt_gslam: /home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/src/ndt/ndt_grid2d_merging.cpp File Reference</title>
+<title>ndt_gslam: /home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/src/ndt/ndt_grid2d_merging.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -112,14 +112,14 @@ $(document).ready(function(){initNavTree('ndt__grid2d__merging_8cpp.html','');})
 <div class="title">ndt_grid2d_merging.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;graph_slam_uk/ndt/cell_policy2d.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="ndt__cell_8h_source.html">graph_slam_uk/ndt/ndt_cell.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="ndt__grid2d_8h_source.html">graph_slam_uk/ndt/ndt_grid2d.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="ndt__mapper_8h_source.html">graph_slam_uk/ndt/ndt_mapper.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="ndt__slam__algorithm_8h_source.html">graph_slam_uk/ndt_slam_algorithm.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="d2d__ndt2d_8h_source.html">graph_slam_uk/registration/d2d_ndt2d.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="ndt2d_8h_source.html">graph_slam_uk/registration/ndt2d.h</a>&gt;</code><br />
-<code>#include &lt;laser_geometry/laser_geometry.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;laser_geometry/laser_geometry.h&gt;</code><br />
+<code>#include &lt;ndt_gslam/ndt/cell_policy2d.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="ndt__cell_8h_source.html">ndt_gslam/ndt/ndt_cell.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="ndt__grid2d_8h_source.html">ndt_gslam/ndt/ndt_grid2d.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="ndt__mapper_8h_source.html">ndt_gslam/ndt/ndt_mapper.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="ndt__slam__algorithm_8h_source.html">ndt_gslam/ndt_slam_algorithm.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="d2d__ndt2d_8h_source.html">ndt_gslam/registration/d2d_ndt2d.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="ndt2d_8h_source.html">ndt_gslam/registration/ndt2d.h</a>&gt;</code><br />
 <code>#include &lt;pcl/common/time.h&gt;</code><br />
 <code>#include &lt;pcl/point_cloud.h&gt;</code><br />
 <code>#include &lt;pcl/point_types.h&gt;</code><br />
@@ -134,34 +134,34 @@ $(document).ready(function(){initNavTree('ndt__grid2d__merging_8cpp.html','');})
 <code>#include &lt;opencv2/opencv.hpp&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;<a class="el" href="eigen__tools_8h_source.html">graph_slam_uk/utils/eigen_tools.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="point__cloud__tools_8h_source.html">graph_slam_uk/utils/point_cloud_tools.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="string__tools_8h_source.html">graph_slam_uk/utils/string_tools.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="eigen__tools_8h_source.html">ndt_gslam/utils/eigen_tools.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="point__cloud__tools_8h_source.html">ndt_gslam/utils/point_cloud_tools.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="string__tools_8h_source.html">ndt_gslam/utils/string_tools.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ndt_grid2d_merging.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="ndt__grid2d__merging_8cpp__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2src_2ndt_2ndt__grid2d__merging_8cpp" alt=""/></div>
-<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2src_2ndt_2ndt__grid2d__merging_8cpp" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2graph__slam__uk_2src_2ndt_2ndt__grid2d__merging_8cpp">
-<area shape="rect" id="node3" href="ndt__cell_8h.html" title="graph_slam_uk/ndt/ndt\l_cell.h" alt="" coords="3161,310,3315,351"/>
-<area shape="rect" id="node8" href="ndt__grid2d_8h.html" title="graph_slam_uk/ndt/ndt\l_grid2d.h" alt="" coords="2142,310,2297,351"/>
-<area shape="rect" id="node12" href="eigen__tools_8h.html" title="graph_slam_uk/utils\l/eigen_tools.h" alt="" coords="1597,407,1735,448"/>
-<area shape="rect" id="node14" href="point__cloud__tools_8h.html" title="graph_slam_uk/utils\l/point_cloud_tools.h" alt="" coords="494,407,633,448"/>
-<area shape="rect" id="node21" href="ndt__mapper_8h.html" title="graph_slam_uk/ndt/ndt\l_mapper.h" alt="" coords="945,213,1099,255"/>
-<area shape="rect" id="node26" href="ndt__slam__algorithm_8h.html" title="graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="1796,124,1963,165"/>
-<area shape="rect" id="node33" href="d2d__ndt2d_8h.html" title="graph_slam_uk/registration\l/d2d_ndt2d.h" alt="" coords="2787,213,2966,255"/>
-<area shape="rect" id="node39" href="ndt2d_8h.html" title="graph_slam_uk/registration\l/ndt2d.h" alt="" coords="2534,213,2713,255"/>
-<area shape="rect" id="node50" href="string__tools_8h.html" title="graph_slam_uk/utils\l/string_tools.h" alt="" coords="287,124,426,165"/>
-<area shape="rect" id="node4" href="output__msgs_8h.html" title="graph_slam_uk/ndt/output\l_msgs.h" alt="" coords="2488,407,2660,448"/>
-<area shape="rect" id="node9" href="voxel__grid2d_8h.html" title="graph_slam_uk/ndt/voxel\l_grid2d.h" alt="" coords="1811,407,1977,448"/>
-<area shape="rect" id="node22" href="msgs__conversions_8h.html" title="graph_slam_uk/utils\l/msgs_conversions.h" alt="" coords="1375,407,1522,448"/>
-<area shape="rect" id="node27" href="ndt__grid2d__holder_8h.html" title="graph_slam_uk/ndt_grid2d\l_holder.h" alt="" coords="2132,213,2307,255"/>
-<area shape="rect" id="node28" href="graph__slam__interfaces_8h.html" title="graph_slam_uk/slam\l_optimizer/graph_slam\l_interfaces.h" alt="" coords="809,303,963,359"/>
-<area shape="rect" id="node29" href="ndt__scanmatcher_8h.html" title="graph_slam_uk/slam\l_optimizer/ndt_scanmatcher.h" alt="" coords="724,213,920,255"/>
-<area shape="rect" id="node30" href="slam2d_8h.html" title="graph_slam_uk/slam\l_optimizer/slam2d.h" alt="" coords="1124,213,1267,255"/>
-<area shape="rect" id="node31" href="covariance__wrapper_8h.html" title="graph_slam_uk/utils\l/covariance_wrapper.h" alt="" coords="1803,213,1955,255"/>
-<area shape="rect" id="node40" href="slam__algorithm__interface_8h.html" title="graph_slam_uk/slam\l_algorithm_interface.h" alt="" coords="1512,213,1663,255"/>
-<area shape="rect" id="node34" href="ndt__reg__tools_8h.html" title="graph_slam_uk/registration\l/ndt_reg_tools.h" alt="" coords="2958,310,3137,351"/>
-<area shape="rect" id="node35" href="covariance__inverse_8h.html" title="graph_slam_uk/utils\l/covariance_inverse.h" alt="" coords="3217,407,3366,448"/>
+<div class="center"><img src="ndt__grid2d__merging_8cpp__incl.png" border="0" usemap="#_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2src_2ndt_2ndt__grid2d__merging_8cpp" alt=""/></div>
+<map name="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2src_2ndt_2ndt__grid2d__merging_8cpp" id="_2home_2lukas_2workspace_2ros_2src_2dynamic__slam_2ndt__gslam_2src_2ndt_2ndt__grid2d__merging_8cpp">
+<area shape="rect" id="node4" href="ndt__cell_8h.html" title="ndt_gslam/ndt/ndt_cell.h" alt="" coords="3307,310,3471,337"/>
+<area shape="rect" id="node9" href="ndt__grid2d_8h.html" title="ndt_gslam/ndt/ndt_grid2d.h" alt="" coords="2350,310,2529,337"/>
+<area shape="rect" id="node13" href="eigen__tools_8h.html" title="ndt_gslam/utils/eigen\l_tools.h" alt="" coords="1737,392,1883,433"/>
+<area shape="rect" id="node15" href="point__cloud__tools_8h.html" title="ndt_gslam/utils/point\l_cloud_tools.h" alt="" coords="629,392,772,433"/>
+<area shape="rect" id="node22" href="ndt__mapper_8h.html" title="ndt_gslam/ndt/ndt_mapper.h" alt="" coords="1050,221,1237,247"/>
+<area shape="rect" id="node27" href="ndt__slam__algorithm_8h.html" title="ndt_gslam/ndt_slam\l_algorithm.h" alt="" coords="2015,124,2154,165"/>
+<area shape="rect" id="node34" href="d2d__ndt2d_8h.html" title="ndt_gslam/registration\l/d2d_ndt2d.h" alt="" coords="2951,213,3101,255"/>
+<area shape="rect" id="node40" href="ndt2d_8h.html" title="ndt_gslam/registration\l/ndt2d.h" alt="" coords="2724,213,2875,255"/>
+<area shape="rect" id="node50" href="string__tools_8h.html" title="ndt_gslam/utils/string\l_tools.h" alt="" coords="426,124,573,165"/>
+<area shape="rect" id="node5" href="output__msgs_8h.html" title="ndt_gslam/ndt/output\l_msgs.h" alt="" coords="2606,392,2750,433"/>
+<area shape="rect" id="node10" href="voxel__grid2d_8h.html" title="ndt_gslam/ndt/voxel\l_grid2d.h" alt="" coords="1958,392,2097,433"/>
+<area shape="rect" id="node24" href="msgs__conversions_8h.html" title="ndt_gslam/utils/msgs\l_conversions.h" alt="" coords="1515,392,1662,433"/>
+<area shape="rect" id="node28" href="ndt__grid2d__holder_8h.html" title="ndt_gslam/ndt_grid2d\l_holder.h" alt="" coords="2350,213,2497,255"/>
+<area shape="rect" id="node29" href="graph__slam__interfaces_8h.html" title="ndt_gslam/slam_optimizer\l/graph_slam_interfaces.h" alt="" coords="949,303,1124,344"/>
+<area shape="rect" id="node30" href="ndt__scanmatcher_8h.html" title="ndt_gslam/slam_optimizer\l/ndt_scanmatcher.h" alt="" coords="851,213,1025,255"/>
+<area shape="rect" id="node31" href="slam2d_8h.html" title="ndt_gslam/slam_optimizer\l/slam2d.h" alt="" coords="1261,213,1436,255"/>
+<area shape="rect" id="node32" href="covariance__wrapper_8h.html" title="ndt_gslam/utils/covariance\l_wrapper.h" alt="" coords="1996,213,2173,255"/>
+<area shape="rect" id="node41" href="slam__algorithm__interface_8h.html" title="ndt_gslam/slam_algorithm\l_interface.h" alt="" coords="1681,213,1856,255"/>
+<area shape="rect" id="node35" href="ndt__reg__tools_8h.html" title="ndt_gslam/registration\l/ndt_reg_tools.h" alt="" coords="3132,303,3283,344"/>
+<area shape="rect" id="node36" href="covariance__inverse_8h.html" title="ndt_gslam/utils/covariance\l_inverse.h" alt="" coords="3377,392,3555,433"/>
 </map>
 </div>
 </div>
@@ -1048,7 +1048,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6bc2876df5f51b64790622082ac4e8d.html">ros</a></li><li class="navelem"><a class="el" href="dir_49b54ca7f98dc469780b4bca0e671444.html">src</a></li><li class="navelem"><a class="el" href="dir_c070981b9104345b29b0156e3101ecab.html">dynamic_slam</a></li><li class="navelem"><a class="el" href="dir_63f1f0c1c21e2a74374163d57611b240.html">graph_slam_uk</a></li><li class="navelem"><a class="el" href="dir_6d041b28f47582aa3f862dc7adc66fc7.html">src</a></li><li class="navelem"><a class="el" href="dir_2bdce788e361122de6074e3d945b3adb.html">ndt</a></li><li class="navelem"><a class="el" href="ndt__grid2d__merging_8cpp.html">ndt_grid2d_merging.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_b6bc2876df5f51b64790622082ac4e8d.html">ros</a></li><li class="navelem"><a class="el" href="dir_49b54ca7f98dc469780b4bca0e671444.html">src</a></li><li class="navelem"><a class="el" href="dir_c070981b9104345b29b0156e3101ecab.html">dynamic_slam</a></li><li class="navelem"><a class="el" href="dir_38cf5805892936d960f233765c81db67.html">ndt_gslam</a></li><li class="navelem"><a class="el" href="dir_cda564f83ccf6a3bc43b2b52fdb73891.html">src</a></li><li class="navelem"><a class="el" href="dir_99d3b333e029d03f3cefaecc5278cf88.html">ndt</a></li><li class="navelem"><a class="el" href="ndt__grid2d__merging_8cpp.html">ndt_grid2d_merging.cpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

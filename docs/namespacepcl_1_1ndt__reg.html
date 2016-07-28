@@ -139,9 +139,11 @@ Functions</h2></td></tr>
 <tr class="separator:a691771bb98c4bc35b50a375ee3d5cd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ccc4e18503790adee6266a41b2d003a"><td class="memTemplParams" colspan="2">template&lt;typename T  = float&gt; </td></tr>
 <tr class="memitem:a1ccc4e18503790adee6266a41b2d003a"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 4, 4 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacepcl_1_1ndt__reg.html#a1ccc4e18503790adee6266a41b2d003a">vecToMat</a> (const Eigen::Vector3d &amp;trans)</td></tr>
+<tr class="memdesc:a1ccc4e18503790adee6266a41b2d003a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts vector representation of the transformation into matrix representation.  <a href="#a1ccc4e18503790adee6266a41b2d003a">More...</a><br /></td></tr>
 <tr class="separator:a1ccc4e18503790adee6266a41b2d003a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a648183022590d9110f4d012f1b7296df"><td class="memTemplParams" colspan="2">template&lt;typename T  = float&gt; </td></tr>
 <tr class="memitem:a648183022590d9110f4d012f1b7296df"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacepcl_1_1ndt__reg.html#a648183022590d9110f4d012f1b7296df">matToVec</a> (const Eigen::Matrix&lt; T, 4, 4 &gt; &amp;trans)</td></tr>
+<tr class="memdesc:a648183022590d9110f4d012f1b7296df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert matrix representation of translation into vector representation of the pose.  <a href="#a648183022590d9110f4d012f1b7296df">More...</a><br /></td></tr>
 <tr class="separator:a648183022590d9110f4d012f1b7296df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -187,7 +189,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>sufficent decrease derivative </dd></dl>
 
-<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00262">262</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00263">263</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
 
 </div>
 </div>
@@ -247,7 +249,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>sufficent decrease value </dd></dl>
 
-<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00244">244</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00245">245</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
 
 </div>
 </div>
@@ -267,7 +269,22 @@ template&lt;typename T  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00283">283</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
+<p>Convert matrix representation of translation into vector representation of the pose. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">trans</td><td>The transformation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Scalar of the matrix</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The pose </dd></dl>
+
+<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00304">304</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
 
 </div>
 </div>
@@ -367,7 +384,7 @@ template&lt;unsigned N, typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00145">145</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00146">146</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +454,7 @@ template&lt;unsigned N, typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00105">105</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00106">106</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
 
 </div>
 </div>
@@ -457,7 +474,22 @@ template&lt;typename T  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00268">268</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
+<p>Converts vector representation of the transformation into matrix representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">trans</td><td>The transformation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Scalar of the matrix</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>transformation matrix </dd></dl>
+
+<p>Definition at line <a class="el" href="ndt__reg__tools_8h_source.html#l00279">279</a> of file <a class="el" href="ndt__reg__tools_8h_source.html">ndt_reg_tools.h</a>.</p>
 
 </div>
 </div>

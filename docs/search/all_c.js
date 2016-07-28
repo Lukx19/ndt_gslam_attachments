@@ -19,9 +19,8 @@ var searchData=
   ['loop',['LOOP',['../classslamuk_1_1_edge.html#a301dd4d2a489f823d5d37eb6dfcbd3eda2de4aec9562782689b330e8bff64ea20',1,'slamuk::Edge']]],
   ['loop_5fdetector_2eh',['loop_detector.h',['../loop__detector_8h.html',1,'']]],
   ['loop_5fdetector_5f',['loop_detector_',['../classslamuk_1_1_slam2_d.html#a47ba9c74c6e02c79f9aabf7223d81e7e',1,'slamuk::Slam2D']]],
-  ['loop_5fproofer_5f',['loop_proofer_',['../classslamuk_1_1_slam2_d.html#ad08acafdeb5194f4a00c5692ba085359',1,'slamuk::Slam2D']]],
-  ['loopclosure',['LoopClosure',['../structslamuk_1_1_loop_closure.html',1,'slamuk']]],
   ['loopclosure',['LoopClosure',['../structslamuk_1_1_loop_closure.html#a7762784d420486c441e98238b130a75a',1,'slamuk::LoopClosure']]],
+  ['loopclosure',['LoopClosure',['../structslamuk_1_1_loop_closure.html',1,'slamuk']]],
   ['loopdetector',['LoopDetector',['../classslamuk_1_1_loop_detector.html#a36f8ae2f7e8782f4c5ab9201a342083f',1,'slamuk::LoopDetector']]],
   ['loopdetector',['LoopDetector',['../classslamuk_1_1_loop_detector.html',1,'slamuk']]],
   ['loopdetector_3c_20slam2d_5fpolicy_2c_20t_20_3e',['LoopDetector&lt; Slam2d_Policy, T &gt;',['../classslamuk_1_1_loop_detector.html',1,'slamuk']]]

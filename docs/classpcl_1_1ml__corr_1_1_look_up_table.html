@@ -117,6 +117,9 @@ $(document).ready(function(){initNavTree('classpcl_1_1ml__corr_1_1_look_up_table
 </div><!--header-->
 <div class="contents">
 
+<p>Fast lookup table for correlation registration.  
+ <a href="classpcl_1_1ml__corr_1_1_look_up_table.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for pcl::ml_corr::LookUpTable&lt; PointType &gt;:</div>
@@ -132,18 +135,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5eb564d0c36c526efdda44e33fb33ac7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#a5eb564d0c36c526efdda44e33fb33ac7">LookUpTable</a> ()</td></tr>
 <tr class="separator:a5eb564d0c36c526efdda44e33fb33ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8384e54c2df99684dff56fd8360008f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#a8384e54c2df99684dff56fd8360008f4">initGrid</a> (const <a class="el" href="ndt__grid2d__merging_8cpp.html#a6c737bbce051bc4690e4c608adc2deec">pcl::PointCloud</a>&lt; PointType &gt; &amp;target, float grid_step, float std_deviation)</td></tr>
+<tr class="memdesc:a8384e54c2df99684dff56fd8360008f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize point cloud from point cloud.  <a href="#a8384e54c2df99684dff56fd8360008f4">More...</a><br /></td></tr>
 <tr class="separator:a8384e54c2df99684dff56fd8360008f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73023a2ef9c3421abc4910fe49cacec6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#a73023a2ef9c3421abc4910fe49cacec6">getScore</a> (const <a class="el" href="ndt__grid2d__merging_8cpp.html#a6c737bbce051bc4690e4c608adc2deec">pcl::PointCloud</a>&lt; PointType &gt; &amp;pcl) const </td></tr>
+<tr class="memdesc:a73023a2ef9c3421abc4910fe49cacec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates score of point cloud.  <a href="#a73023a2ef9c3421abc4910fe49cacec6">More...</a><br /></td></tr>
 <tr class="separator:a73023a2ef9c3421abc4910fe49cacec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c97a180178199b9749074079f34d4a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#ab6c97a180178199b9749074079f34d4a">getScore</a> (const std::vector&lt; <a class="el" href="structpcl_1_1ml__corr_1_1_index_point.html">IndexPoint</a> &gt; &amp;pcl) const </td></tr>
+<tr class="memdesc:ab6c97a180178199b9749074079f34d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates score from indexes.  <a href="#ab6c97a180178199b9749074079f34d4a">More...</a><br /></td></tr>
 <tr class="separator:ab6c97a180178199b9749074079f34d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b35320f68b9118674d0db881a60ed8e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#a6b35320f68b9118674d0db881a60ed8e">getMaxScore</a> () const </td></tr>
+<tr class="memdesc:a6b35320f68b9118674d0db881a60ed8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the maximum score.  <a href="#a6b35320f68b9118674d0db881a60ed8e">More...</a><br /></td></tr>
 <tr class="separator:a6b35320f68b9118674d0db881a60ed8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a91d5bc9c4cb752e376bf5e65cb76ac"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structpcl_1_1ml__corr_1_1_index_point.html">IndexPoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#a1a91d5bc9c4cb752e376bf5e65cb76ac">toIndexes</a> (const <a class="el" href="ndt__grid2d__merging_8cpp.html#a6c737bbce051bc4690e4c608adc2deec">pcl::PointCloud</a>&lt; PointType &gt; &amp;pcl) const </td></tr>
+<tr class="memdesc:a1a91d5bc9c4cb752e376bf5e65cb76ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts point cloud to vector of indexes.  <a href="#a1a91d5bc9c4cb752e376bf5e65cb76ac">More...</a><br /></td></tr>
 <tr class="separator:a1a91d5bc9c4cb752e376bf5e65cb76ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af80266ba9681af0f12d566fca28782b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#af80266ba9681af0f12d566fca28782b1">moveIndexes</a> (std::vector&lt; <a class="el" href="structpcl_1_1ml__corr_1_1_index_point.html">IndexPoint</a> &gt; &amp;indexes, int dx, int dy) const </td></tr>
+<tr class="memdesc:af80266ba9681af0f12d566fca28782b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate indexes in place.  <a href="#af80266ba9681af0f12d566fca28782b1">More...</a><br /></td></tr>
 <tr class="separator:af80266ba9681af0f12d566fca28782b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e26e9f54e42c7985c80e3b985062daa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1ml__corr_1_1_look_up_table.html#a9e26e9f54e42c7985c80e3b985062daa">transformIndexes</a> (const std::vector&lt; <a class="el" href="structpcl_1_1ml__corr_1_1_index_point.html">IndexPoint</a> &gt; &amp;source, std::vector&lt; <a class="el" href="structpcl_1_1ml__corr_1_1_index_point.html">IndexPoint</a> &gt; &amp;out, float dx, float dy) const </td></tr>
+<tr class="memdesc:a9e26e9f54e42c7985c80e3b985062daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate indexes in x and y direction.  <a href="#a9e26e9f54e42c7985c80e3b985062daa">More...</a><br /></td></tr>
 <tr class="separator:a9e26e9f54e42c7985c80e3b985062daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -202,8 +212,15 @@ Friends</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename PointType&gt;<br />
 class pcl::ml_corr::LookUpTable&lt; PointType &gt;</h3>
 
+<p>Fast lookup table for correlation registration. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">PointType</td><td>basic types </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00125">125</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00142">142</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5eb564d0c36c526efdda44e33fb33ac7"></a>
 <div class="memitem">
@@ -228,7 +245,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00130">130</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00147">147</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -267,7 +284,7 @@ template&lt;typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00352">352</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00422">422</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -295,7 +312,7 @@ template&lt;typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00334">334</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00404">404</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -333,7 +350,7 @@ template&lt;typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00346">346</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00416">416</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -351,9 +368,12 @@ template&lt;typename PointType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the maximum score. </p>
+<dl class="section return"><dt>Returns</dt><dd>The maximum score. </dd></dl>
 <p>(pts * OCCUPIED_CELL); </p>
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00243">243</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00314">314</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -409,7 +429,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00386">386</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00456">456</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +457,7 @@ template&lt;typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00367">367</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00437">437</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -465,7 +485,7 @@ template&lt;typename PointType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00376">376</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00446">446</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +505,16 @@ template&lt;typename PointType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00203">203</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Calculates score of point cloud. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pcl</td><td>The pcl</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The score. </dd></dl>
+
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00274">274</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -505,7 +534,16 @@ template&lt;typename PointType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00220">220</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Calculates score from indexes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pcl</td><td>The indexes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The score. </dd></dl>
+
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00291">291</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -541,7 +579,17 @@ template&lt;typename PointType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00180">180</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Initialize point cloud from point cloud. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The target pointc loud </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">grid_step</td><td>The grid step </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">std_deviation</td><td>The standard deviation of sensor noise </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00251">251</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -569,7 +617,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00302">302</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00372">372</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -605,7 +653,17 @@ template&lt;typename PointType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00272">272</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Translate indexes in place. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">indexes</td><td>The indexes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dx</td><td>translation in x axis in number of cells </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dy</td><td>translation in y axis in number of cells </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00343">343</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -625,7 +683,16 @@ template&lt;typename PointType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00257">257</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Converts point cloud to vector of indexes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pcl</td><td>The pcl</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector of indexes </dd></dl>
+
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00328">328</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -667,7 +734,18 @@ template&lt;typename PointType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00283">283</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Translate indexes in x and y direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">source</td><td>The source indexes </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">out</td><td>The transformed indexes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dx</td><td>translation in x axis </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dy</td><td>translation in y axis </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00353">353</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -708,7 +786,7 @@ template&lt;typename P &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00404">404</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00474">474</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -733,7 +811,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00159">159</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00230">230</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -757,7 +835,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00158">158</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00229">229</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -781,7 +859,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00157">157</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00228">228</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -805,7 +883,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00153">153</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00224">224</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -829,7 +907,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00154">154</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00225">225</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -853,7 +931,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00163">163</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00234">234</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -877,7 +955,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00156">156</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00227">227</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -901,7 +979,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00156">156</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00227">227</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -925,7 +1003,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00156">156</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00227">227</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -949,7 +1027,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00156">156</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00227">227</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -973,7 +1051,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00161">161</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00232">232</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -997,7 +1075,7 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00162">162</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00233">233</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
@@ -1021,12 +1099,12 @@ template&lt;typename PointType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00160">160</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
+<p>Definition at line <a class="el" href="correlative__estimation__tools_8h_source.html#l00231">231</a> of file <a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/registration/<a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a></li>
+<li>/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/registration/<a class="el" href="correlative__estimation__tools_8h_source.html">correlative_estimation_tools.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

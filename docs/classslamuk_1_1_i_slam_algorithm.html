@@ -151,9 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5eabe3e982f65a04940662e8a69815f4"><td class="memItemLeft" align="right" valign="top">virtual visualization_msgs::MarkerArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_i_slam_algorithm.html#a5eabe3e982f65a04940662e8a69815f4">getGraphSerialized</a> (const std::string &amp;world_frame_id) const =0</td></tr>
 <tr class="memdesc:a5eabe3e982f65a04940662e8a69815f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the graph serialized.  <a href="#a5eabe3e982f65a04940662e8a69815f4">More...</a><br /></td></tr>
 <tr class="separator:a5eabe3e982f65a04940662e8a69815f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7de79fa69119cf3f12513fc11dca055b"><td class="memItemLeft" align="right" valign="top">virtual graph_slam_uk::NDTMapMsg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_i_slam_algorithm.html#a7de79fa69119cf3f12513fc11dca055b">getNDTMap</a> (const std::string &amp;world_frame_id) const =0</td></tr>
-<tr class="memdesc:a7de79fa69119cf3f12513fc11dca055b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ndt map.  <a href="#a7de79fa69119cf3f12513fc11dca055b">More...</a><br /></td></tr>
-<tr class="separator:a7de79fa69119cf3f12513fc11dca055b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d4fa74aa0d0d295c8450a35944fd6b"><td class="memItemLeft" align="right" valign="top">virtual ndt_gslam::NDTMapMsg&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_i_slam_algorithm.html#a73d4fa74aa0d0d295c8450a35944fd6b">getNDTMap</a> (const std::string &amp;world_frame_id) const =0</td></tr>
+<tr class="memdesc:a73d4fa74aa0d0d295c8450a35944fd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ndt map.  <a href="#a73d4fa74aa0d0d295c8450a35944fd6b">More...</a><br /></td></tr>
+<tr class="separator:a73d4fa74aa0d0d295c8450a35944fd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc26b25291e12fee8763e0e1744b49ef"><td class="memItemLeft" align="right" valign="top">virtual PointCloud::Ptr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_i_slam_algorithm.html#abc26b25291e12fee8763e0e1744b49ef">getPclMap</a> (const std::string &amp;world_frame_id) const =0</td></tr>
 <tr class="memdesc:abc26b25291e12fee8763e0e1744b49ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pcl map.  <a href="#abc26b25291e12fee8763e0e1744b49ef">More...</a><br /></td></tr>
 <tr class="separator:abc26b25291e12fee8763e0e1744b49ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,7 +312,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7de79fa69119cf3f12513fc11dca055b"></a>
+<a class="anchor" id="a73d4fa74aa0d0d295c8450a35944fd6b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -320,7 +320,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual graph_slam_uk::NDTMapMsg slamuk::ISlamAlgorithm::getNDTMap </td>
+          <td class="memname">virtual ndt_gslam::NDTMapMsg slamuk::ISlamAlgorithm::getNDTMap </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>world_frame_id</em></td><td>)</td>
@@ -343,7 +343,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The ndt map. </dd></dl>
 
-<p>Implemented in <a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#a4ad216e0ea61c47ce38d0adcb23b7764">slamuk::NdtSlamAlgortihm</a>.</p>
+<p>Implemented in <a class="el" href="classslamuk_1_1_ndt_slam_algortihm.html#ac25b51f2849517d688edaef70a5e9173">slamuk::NdtSlamAlgortihm</a>.</p>
 
 </div>
 </div>
@@ -683,7 +683,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/<a class="el" href="slam__algorithm__interface_8h_source.html">slam_algorithm_interface.h</a></li>
+<li>/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/<a class="el" href="slam__algorithm__interface_8h_source.html">slam_algorithm_interface.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

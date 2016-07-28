@@ -1,9 +1,9 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/registration/d2d_ndt2d.h" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/registration/d2d_ndt2d.h">
-<area shape="rect" id="node2" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="125,405,295,491"/>
-<area shape="rect" id="node4" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/ndt\l/ndt_grid2d_merging.cpp" alt="" coords="5,539,169,609"/>
-<area shape="rect" id="node5" href="$d2d__ndt2d__robust_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/registration\l/d2d_ndt2d_robust.h" alt="" coords="224,139,407,224"/>
-<area shape="rect" id="node8" href="$ndt2d__visual_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/registration\l/ndt2d_visual.cpp" alt="" coords="443,279,647,350"/>
-<area shape="rect" id="node3" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/graph\l_slam2d_node.cpp" alt="" coords="193,539,365,609"/>
-<area shape="rect" id="node6" href="$ndt__scanmatcher_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/slam_optimizer\l/ndt_scanmatcher.h" alt="" coords="212,272,419,357"/>
-<area shape="rect" id="node7" href="$gauss__newton__optimalizer__test_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/test/slam\l_optimizer/gauss_newton\l_optimalizer_test.cpp" alt="" coords="320,405,492,491"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/registration/d2d_ndt2d.h" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/registration/d2d_ndt2d.h">
+<area shape="rect" id="node2" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt_slam_algorithm.h" alt="" coords="123,405,315,476"/>
+<area shape="rect" id="node4" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/ndt/ndt\l_grid2d_merging.cpp" alt="" coords="5,524,165,595"/>
+<area shape="rect" id="node5" href="$d2d__ndt2d__robust_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/registration/d2d\l_ndt2d_robust.h" alt="" coords="224,139,384,224"/>
+<area shape="rect" id="node8" href="$ndt2d__visual_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/registration\l/ndt2d_visual.cpp" alt="" coords="417,279,593,350"/>
+<area shape="rect" id="node3" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/graph_slam2d\l_node.cpp" alt="" coords="190,524,383,595"/>
+<area shape="rect" id="node6" href="$ndt__scanmatcher_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/slam_optimizer/ndt\l_scanmatcher.h" alt="" coords="215,272,393,357"/>
+<area shape="rect" id="node7" href="$gauss__newton__optimalizer__test_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/test/slam_optimizer\l/gauss_newton_optimalizer_test.cpp" alt="" coords="339,405,573,476"/>
 </map>

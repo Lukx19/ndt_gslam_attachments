@@ -1,14 +1,14 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_optimizer/slam2d.h" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_optimizer/slam2d.h">
-<area shape="rect" id="node2" href="$graph__slam__interfaces_8h.html" title="graph_slam_uk/slam\l_optimizer/graph_slam\l_interfaces.h" alt="" coords="269,243,422,299"/>
-<area shape="rect" id="node10" href="$loop__detector_8h.html" title="graph_slam_uk/slam\l_optimizer/loop_detector.h" alt="" coords="591,146,766,187"/>
-<area shape="rect" id="node11" href="$pose__graph_8h.html" title="graph_slam_uk/slam\l_optimizer/pose_graph.h" alt="" coords="1070,250,1234,291"/>
-<area shape="rect" id="node16" href="$eigen__tools_8h.html" title="graph_slam_uk/utils\l/eigen_tools.h" alt="" coords="805,250,944,291"/>
-<area shape="rect" id="node22" href="$slam2d__policy_8h.html" title="graph_slam_uk/slam\l_optimizer/slam2d_policy.h" alt="" coords="892,146,1071,187"/>
-<area shape="rect" id="node36" href="$types__g2o__mixture_8h.html" title="graph_slam_uk/slam\l_optimizer/max_mixture\l/types_g2o_mixture.h" alt="" coords="4010,139,4171,195"/>
-<area shape="rect" id="node45" href="$edge__se2_switchable_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/edge_se2Switchable.h" alt="" coords="4659,139,4887,195"/>
-<area shape="rect" id="node47" href="$edge__switch_prior_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/edge_switchPrior.h" alt="" coords="1298,139,1505,195"/>
-<area shape="rect" id="node49" href="$vertex__switch_linear_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/vertex_switchLinear.h" alt="" coords="1359,243,1582,299"/>
-<area shape="rect" id="node39" href="$edge__se2__mixture_8h.html" title="edge_se2_mixture.h" alt="" coords="3764,257,3903,284"/>
-<area shape="rect" id="node41" href="$edge__se2__pointxy__mixture_8h.html" title="edge_se2_pointxy_mixture.h" alt="" coords="4090,257,4278,284"/>
-<area shape="rect" id="node44" href="$edge__se3__mixture_8h.html" title="edge_se3_mixture.h" alt="" coords="3927,257,4065,284"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_optimizer/slam2d.h" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_optimizer/slam2d.h">
+<area shape="rect" id="node2" href="$graph__slam__interfaces_8h.html" title="ndt_gslam/slam_optimizer\l/graph_slam_interfaces.h" alt="" coords="217,235,391,277"/>
+<area shape="rect" id="node10" href="$loop__detector_8h.html" title="ndt_gslam/slam_optimizer\l/loop_detector.h" alt="" coords="626,131,801,173"/>
+<area shape="rect" id="node11" href="$pose__graph_8h.html" title="ndt_gslam/slam_optimizer\l/pose_graph.h" alt="" coords="995,235,1170,277"/>
+<area shape="rect" id="node16" href="$eigen__tools_8h.html" title="ndt_gslam/utils/eigen\l_tools.h" alt="" coords="774,235,919,277"/>
+<area shape="rect" id="node20" href="$slam2d__policy_8h.html" title="ndt_gslam/slam_optimizer\l/slam2d_policy.h" alt="" coords="941,131,1115,173"/>
+<area shape="rect" id="node34" href="$types__g2o__mixture_8h.html" title="ndt_gslam/slam_optimizer\l/max_mixture/types_g2o\l_mixture.h" alt="" coords="3618,124,3793,180"/>
+<area shape="rect" id="node45" href="$edge__se2_switchable_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_se2Switchable.h" alt="" coords="4295,124,4470,180"/>
+<area shape="rect" id="node47" href="$edge__switch_prior_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_switchPrior.h" alt="" coords="1347,124,1522,180"/>
+<area shape="rect" id="node49" href="$vertex__switch_linear_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/vertex_switchLinear.h" alt="" coords="1347,228,1522,284"/>
+<area shape="rect" id="node37" href="$edge__se2__mixture_8h.html" title="edge_se2_mixture.h" alt="" coords="3717,243,3856,269"/>
+<area shape="rect" id="node39" href="$edge__se2__pointxy__mixture_8h.html" title="edge_se2_pointxy_mixture.h" alt="" coords="3881,243,4069,269"/>
+<area shape="rect" id="node42" href="$edge__se3__mixture_8h.html" title="edge_se3_mixture.h" alt="" coords="3555,243,3693,269"/>
 </map>

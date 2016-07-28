@@ -1,5 +1,5 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_optimizer/slam2d.h" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_optimizer/slam2d.h">
-<area shape="rect" id="node2" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/include\l/graph_slam_uk/ndt_slam\l_algorithm.h" alt="" coords="102,139,273,224"/>
-<area shape="rect" id="node3" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/graph\l_slam2d_node.cpp" alt="" coords="5,272,177,343"/>
-<area shape="rect" id="node4" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/graph_slam_uk/src/ndt\l/ndt_grid2d_merging.cpp" alt="" coords="201,272,365,343"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_optimizer/slam2d.h" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_optimizer/slam2d.h">
+<area shape="rect" id="node2" href="$ndt__slam__algorithm_8h.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/include/ndt\l_gslam/ndt_slam_algorithm.h" alt="" coords="106,124,298,195"/>
+<area shape="rect" id="node3" href="$graph__slam2d__node_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/graph_slam2d\l_node.cpp" alt="" coords="5,243,199,313"/>
+<area shape="rect" id="node4" href="$ndt__grid2d__merging_8cpp.html" title="/home/lukas/workspace\l/ros/src/dynamic_slam\l/ndt_gslam/src/ndt/ndt\l_grid2d_merging.cpp" alt="" coords="223,243,383,313"/>
 </map>

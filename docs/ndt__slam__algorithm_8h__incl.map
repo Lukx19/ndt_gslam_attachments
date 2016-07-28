@@ -1,21 +1,23 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/ndt_slam_algorithm.h" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/ndt_slam_algorithm.h">
-<area shape="rect" id="node2" href="$ndt__grid2d__holder_8h.html" title="graph_slam_uk/ndt_grid2d\l_holder.h" alt="" coords="627,228,802,269"/>
-<area shape="rect" id="node4" href="$output__msgs_8h.html" title="graph_slam_uk/ndt/output\l_msgs.h" alt="" coords="118,525,290,567"/>
-<area shape="rect" id="node6" href="$eigen__tools_8h.html" title="graph_slam_uk/utils\l/eigen_tools.h" alt="" coords="1721,525,1860,567"/>
-<area shape="rect" id="node9" href="$point__cloud__tools_8h.html" title="graph_slam_uk/utils\l/point_cloud_tools.h" alt="" coords="1156,525,1295,567"/>
-<area shape="rect" id="node14" href="$graph__slam__interfaces_8h.html" title="graph_slam_uk/slam\l_optimizer/graph_slam\l_interfaces.h" alt="" coords="1310,421,1463,477"/>
-<area shape="rect" id="node17" href="$ndt__scanmatcher_8h.html" title="graph_slam_uk/slam\l_optimizer/ndt_scanmatcher.h" alt="" coords="1275,139,1471,180"/>
-<area shape="rect" id="node19" href="$d2d__ndt2d_8h.html" title="graph_slam_uk/registration\l/d2d_ndt2d.h" alt="" coords="397,325,576,366"/>
-<area shape="rect" id="node20" href="$ndt__cell_8h.html" title="graph_slam_uk/ndt/ndt\l_cell.h" alt="" coords="187,429,341,470"/>
-<area shape="rect" id="node24" href="$slam2d_8h.html" title="graph_slam_uk/slam\l_optimizer/slam2d.h" alt="" coords="2782,228,2925,269"/>
-<area shape="rect" id="node44" href="$covariance__wrapper_8h.html" title="graph_slam_uk/utils\l/covariance_wrapper.h" alt="" coords="1780,139,1932,180"/>
-<area shape="rect" id="node46" href="$ndt__mapper_8h.html" title="graph_slam_uk/ndt/ndt\l_mapper.h" alt="" coords="1029,325,1184,366"/>
-<area shape="rect" id="node48" href="$ndt2d_8h.html" title="graph_slam_uk/registration\l/ndt2d.h" alt="" coords="195,325,373,366"/>
-<area shape="rect" id="node49" href="$slam__algorithm__interface_8h.html" title="graph_slam_uk/slam\l_algorithm_interface.h" alt="" coords="702,325,853,366"/>
-<area shape="rect" id="node3" href="$ndt__grid2d_8h.html" title="graph_slam_uk/ndt/ndt\l_grid2d.h" alt="" coords="517,429,672,470"/>
-<area shape="rect" id="node18" href="$d2d__ndt2d__robust_8h.html" title="graph_slam_uk/registration\l/d2d_ndt2d_robust.h" alt="" coords="424,228,603,269"/>
-<area shape="rect" id="node25" href="$loop__detector_8h.html" title="graph_slam_uk/slam\l_optimizer/loop_detector.h" alt="" coords="1593,325,1767,366"/>
-<area shape="rect" id="node26" href="$pose__graph_8h.html" title="graph_slam_uk/slam\l_optimizer/pose_graph.h" alt="" coords="2651,429,2815,470"/>
-<area shape="rect" id="node30" href="$slam2d__policy_8h.html" title="graph_slam_uk/slam\l_optimizer/slam2d_policy.h" alt="" coords="1893,429,2072,470"/>
-<area shape="rect" id="node43" href="$types__g2o__mixture_8h.html" title="graph_slam_uk/slam\l_optimizer/max_mixture\l/types_g2o_mixture.h" alt="" coords="2553,317,2714,373"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/ndt_slam_algorithm.h" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/ndt_slam_algorithm.h">
+<area shape="rect" id="node2" href="$ndt__grid2d__holder_8h.html" title="ndt_gslam/ndt_grid2d\l_holder.h" alt="" coords="804,213,951,255"/>
+<area shape="rect" id="node4" href="$output__msgs_8h.html" title="ndt_gslam/ndt/output\l_msgs.h" alt="" coords="115,496,259,537"/>
+<area shape="rect" id="node6" href="$eigen__tools_8h.html" title="ndt_gslam/utils/eigen\l_tools.h" alt="" coords="1898,496,2043,537"/>
+<area shape="rect" id="node9" href="$point__cloud__tools_8h.html" title="ndt_gslam/utils/point\l_cloud_tools.h" alt="" coords="1046,496,1189,537"/>
+<area shape="rect" id="node14" href="$graph__slam__interfaces_8h.html" title="ndt_gslam/slam_optimizer\l/graph_slam_interfaces.h" alt="" coords="1305,407,1479,448"/>
+<area shape="rect" id="node17" href="$ndt__scanmatcher_8h.html" title="ndt_gslam/slam_optimizer\l/ndt_scanmatcher.h" alt="" coords="1367,124,1542,165"/>
+<area shape="rect" id="node19" href="$d2d__ndt2d_8h.html" title="ndt_gslam/registration\l/d2d_ndt2d.h" alt="" coords="439,310,590,351"/>
+<area shape="rect" id="node20" href="$ndt__cell_8h.html" title="ndt_gslam/ndt/ndt_cell.h" alt="" coords="145,414,309,441"/>
+<area shape="rect" id="node24" href="$slam2d_8h.html" title="ndt_gslam/slam_optimizer\l/slam2d.h" alt="" coords="3259,213,3434,255"/>
+<area shape="rect" id="node44" href="$covariance__wrapper_8h.html" title="ndt_gslam/utils/covariance\l_wrapper.h" alt="" coords="1806,124,1983,165"/>
+<area shape="rect" id="node47" href="$ndt__mapper_8h.html" title="ndt_gslam/ndt/ndt_mapper.h" alt="" coords="1016,317,1203,344"/>
+<area shape="rect" id="node48" href="$ndt2d_8h.html" title="ndt_gslam/registration\l/ndt2d.h" alt="" coords="213,310,363,351"/>
+<area shape="rect" id="node49" href="$slam__algorithm__interface_8h.html" title="ndt_gslam/slam_algorithm\l_interface.h" alt="" coords="614,310,789,351"/>
+<area shape="rect" id="node3" href="$ndt__grid2d_8h.html" title="ndt_gslam/ndt/ndt_grid2d.h" alt="" coords="747,414,925,441"/>
+<area shape="rect" id="node18" href="$d2d__ndt2d__robust_8h.html" title="ndt_gslam/registration\l/d2d_ndt2d_robust.h" alt="" coords="629,213,779,255"/>
+<area shape="rect" id="node25" href="$loop__detector_8h.html" title="ndt_gslam/slam_optimizer\l/loop_detector.h" alt="" coords="1907,310,2082,351"/>
+<area shape="rect" id="node26" href="$pose__graph_8h.html" title="ndt_gslam/slam_optimizer\l/pose_graph.h" alt="" coords="3297,407,3471,448"/>
+<area shape="rect" id="node28" href="$slam2d__policy_8h.html" title="ndt_gslam/slam_optimizer\l/slam2d_policy.h" alt="" coords="1707,407,1882,448"/>
+<area shape="rect" id="node41" href="$types__g2o__mixture_8h.html" title="ndt_gslam/slam_optimizer\l/max_mixture/types_g2o\l_mixture.h" alt="" coords="2935,303,3110,359"/>
+<area shape="rect" id="node42" href="$edge__se2_switchable_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_se2Switchable.h" alt="" coords="3435,303,3610,359"/>
+<area shape="rect" id="node43" href="$edge__switch_prior_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_switchPrior.h" alt="" coords="3134,303,3309,359"/>
 </map>

@@ -139,8 +139,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f13232570fe9d7acc9a7abb01fa3837"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_graph.html#a7f13232570fe9d7acc9a7abb01fa3837">Graph</a> ()</td></tr>
 <tr class="separator:a7f13232570fe9d7acc9a7abb01fa3837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d7c84c2466ccda32c666863df193935"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classslamuk_1_1_graph.html#a76ab37123cb99e2133ded1f8a22db32a">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_graph.html#a9d7c84c2466ccda32c666863df193935">addEdge</a> (<a class="el" href="classslamuk_1_1_graph.html#a8b2438b16140d7df7d6fa83d408e131e">E</a> &amp;&amp;edge)</td></tr>
+<tr class="memdesc:a9d7c84c2466ccda32c666863df193935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an edge to the graph.  <a href="#a9d7c84c2466ccda32c666863df193935">More...</a><br /></td></tr>
 <tr class="separator:a9d7c84c2466ccda32c666863df193935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0fe5071a48cb444bd5103cbc886fcae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classslamuk_1_1_graph.html#a76ab37123cb99e2133ded1f8a22db32a">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_graph.html#ab0fe5071a48cb444bd5103cbc886fcae">addNode</a> (<a class="el" href="classslamuk_1_1_graph.html#a7994a28051700c3db0ea07016298d5c9">N</a> &amp;&amp;node)</td></tr>
+<tr class="memdesc:ab0fe5071a48cb444bd5103cbc886fcae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a node to the graph.  <a href="#ab0fe5071a48cb444bd5103cbc886fcae">More...</a><br /></td></tr>
 <tr class="separator:ab0fe5071a48cb444bd5103cbc886fcae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1ac6b0a4bccd0b9b28e5d7b52816a74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslamuk_1_1_graph.html#ac1ac6b0a4bccd0b9b28e5d7b52816a74">removeEdge</a> (size_t id)</td></tr>
 <tr class="separator:ac1ac6b0a4bccd0b9b28e5d7b52816a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,7 +341,16 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00063">63</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Adds an edge to the graph. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">edge</td><td>The new edge</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unique id of this new edge </dd></dl>
+
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00078">78</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +370,16 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00098">98</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Adds a node to the graph. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The new node</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uniwue id of the new node </dd></dl>
+
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00113">113</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -378,7 +398,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00176">176</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00191">191</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +417,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00165">165</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00180">180</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -416,7 +436,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00182">182</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00197">197</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +455,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00171">171</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00186">186</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -454,7 +474,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00206">206</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00221">221</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -473,7 +493,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00194">194</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00209">209</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +512,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00212">212</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00227">227</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -511,7 +531,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00200">200</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00215">215</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -530,7 +550,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00188">188</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00203">203</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -550,7 +570,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00119">119</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00134">134</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -570,7 +590,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00132">132</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00147">147</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +610,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00145">145</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00160">160</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -610,7 +630,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00155">155</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00170">170</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -629,7 +649,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00217">217</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00232">232</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -649,7 +669,7 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00223">223</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00238">238</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
@@ -669,12 +689,12 @@ template&lt;typename P , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00085">85</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
+<p>Definition at line <a class="el" href="pose__graph_8h_source.html#l00100">100</a> of file <a class="el" href="pose__graph_8h_source.html">pose_graph.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/include/graph_slam_uk/slam_optimizer/<a class="el" href="pose__graph_8h_source.html">pose_graph.h</a></li>
+<li>/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/include/ndt_gslam/slam_optimizer/<a class="el" href="pose__graph_8h_source.html">pose_graph.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

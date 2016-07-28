@@ -1,4 +1,4 @@
-<map id="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/src/slam_optimizer/switchable_constraints/edge_se3Switchable.cpp" name="/home/lukas/workspace/ros/src/dynamic_slam/graph_slam_uk/src/slam_optimizer/switchable_constraints/edge_se3Switchable.cpp">
-<area shape="rect" id="node4" href="$edge__se3_switchable_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/edge_se3Switchable.h" alt="" coords="275,139,503,195"/>
-<area shape="rect" id="node6" href="$vertex__switch_linear_8h.html" title="graph_slam_uk/slam\l_optimizer/switchable\l_constraints/vertex_switchLinear.h" alt="" coords="527,139,749,195"/>
+<map id="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/src/slam_optimizer/switchable_constraints/edge_se3Switchable.cpp" name="/home/lukas/workspace/ros/src/dynamic_slam/ndt_gslam/src/slam_optimizer/switchable_constraints/edge_se3Switchable.cpp">
+<area shape="rect" id="node4" href="$edge__se3_switchable_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/edge_se3Switchable.h" alt="" coords="275,139,449,195"/>
+<area shape="rect" id="node6" href="$vertex__switch_linear_8h.html" title="ndt_gslam/slam_optimizer\l/switchable_constraints\l/vertex_switchLinear.h" alt="" coords="487,139,661,195"/>
 </map>
