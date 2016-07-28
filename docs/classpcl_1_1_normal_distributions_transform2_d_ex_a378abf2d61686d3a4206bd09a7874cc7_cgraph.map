@@ -1,0 +1,13 @@
+<map id="pcl::NormalDistributionsTransform2DEx::calcScore" name="pcl::NormalDistributionsTransform2DEx::calcScore">
+<area shape="rect" id="node2" href="$structpcl_1_1ndt__reg_1_1_score_and_derivatives.html#acd667d26071ef630765198bd7a2cfce2" title="pcl::ndt_reg::ScoreAndDerivatives\l::Zero" alt="" coords="507,128,728,169"/>
+<area shape="rect" id="node3" href="$namespacepcl_1_1ndt__reg.html#a1ccc4e18503790adee6266a41b2d003a" title="pcl::ndt_reg::vecToMat" alt="" coords="259,71,414,98"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_n_d_t_grid2_d.html#abefe25648d0ce26fc95586e05e98d8e0" title="Gets the k nearest neighbors with Gaussian information inside. " alt="" coords="259,5,414,47"/>
+<area shape="rect" id="node7" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#a4f270b19ae761593500fc0dcd3fac028" title="Estimate score, hessian and gradient for selected point. " alt="" coords="232,173,441,215"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_n_d_t_grid2_d.html#a6c874a91b277c5f405e5970b0cfe3615" title="slamuk::NDTGrid2D::\lgetKNearestNeighborsKDTree" alt="" coords="519,5,716,47"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_voxel_grid2_d.html#aea7e9aadf3ab4576292a233b193da993" title="slamuk::VoxelGrid2D\l::getCellPtr" alt="" coords="820,5,965,47"/>
+<area shape="rect" id="node8" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#ad0bc89270b117a89bf6c95d95d2f311b" title="pcl::NormalDistributions\lTransform2DEx::computeStepLengthMT" alt="" coords="489,219,745,260"/>
+<area shape="rect" id="node9" href="$namespacepcl_1_1ndt__reg.html#a5d4cfc1bde09c9aa51f8a4b9733590c5" title="Auxilary function used to determin endpoints of More&#45;Thuente interval. " alt="" coords="796,185,989,227"/>
+<area shape="rect" id="node10" href="$namespacepcl_1_1ndt__reg.html#a691771bb98c4bc35b50a375ee3d5cd7d" title="Auxilary function derivative used to determin endpoints of More&#45;Thuente interval. ..." alt="" coords="796,251,989,292"/>
+<area shape="rect" id="node11" href="$namespacepcl_1_1ndt__reg.html#a358d74015331dcc27ff2057c21903ed9" title="pcl::ndt_reg::trialValue\lSelectionMT" alt="" coords="817,316,968,357"/>
+<area shape="rect" id="node12" href="$namespacepcl_1_1ndt__reg.html#abb9967b77fc74f5bcbc13f8b013b43f5" title="pcl::ndt_reg::updateIntervalMT" alt="" coords="793,134,992,161"/>
+</map>

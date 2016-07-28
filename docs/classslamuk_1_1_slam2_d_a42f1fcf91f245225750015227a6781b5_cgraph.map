@@ -1,0 +1,15 @@
+<map id="slamuk::Slam2D::tryLoopClose" name="slamuk::Slam2D::tryLoopClose">
+<area shape="rect" id="node2" href="$classslamuk_1_1_loop_detector.html#abd5752f59e4bc811b00349d6aea18d1e" title="slamuk::LoopDetector\l::genLoopClosures" alt="" coords="284,139,435,181"/>
+<area shape="rect" id="node8" href="$struct_slam2d___policy.html#ad0fd5c0b7ec47d1540a10fbd8fa96699" title="Slam2d_Policy::transMatToVec" alt="" coords="257,252,461,279"/>
+<area shape="rect" id="node9" href="$classslamuk_1_1_slam2_d.html#a45c85a03d7ef31a0d938a7eb17185054" title="slamuk::Slam2D::addConstrain" alt="" coords="257,376,461,403"/>
+<area shape="rect" id="node12" href="$classslamuk_1_1_graph.html#a1a73c0036852c35af7c2a6225eccd8a4" title="slamuk::Graph::getEdge" alt="" coords="521,427,684,453"/>
+<area shape="rect" id="node14" href="$classslamuk_1_1_edge.html#ac1c233590f968817e72de609a696c5cc" title="slamuk::Edge::setType" alt="" coords="525,477,681,504"/>
+<area shape="rect" id="node3" href="$structslamuk_1_1internal_1_1_edge_cov.html#a0fe387e941f12e32b53da9fa371ece4e" title="slamuk::internal::EdgeCov\l::EdgeCov" alt="" coords="515,107,691,149"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_node.html#abe53a1ecc32be2bdb2ef2757bb343570" title="slamuk::Node::getPose" alt="" coords="523,173,682,200"/>
+<area shape="rect" id="node5" href="$namespaceeigt.html#ab1d0a592cbf7da2c312101241139e5a8" title="eigt::getTransFromPose" alt="" coords="522,5,683,32"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_node.html#a8abd61f0dc557ef1333f3bb296b5f659" title="slamuk::Node::getDataObj" alt="" coords="514,56,691,83"/>
+<area shape="rect" id="node7" href="$namespaceeigt.html#a7106831976c91028d6fba7760f7c801d" title="eigt::getPoseFromTransform" alt="" coords="509,224,696,251"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_graph.html#a7117f3863fbd2c1541afc31a4718f659" title="slamuk::Graph::getNode" alt="" coords="521,275,685,301"/>
+<area shape="rect" id="node11" href="$classslamuk_1_1_graph.html#a9d7c84c2466ccda32c666863df193935" title="slamuk::Graph::addEdge" alt="" coords="519,325,686,352"/>
+<area shape="rect" id="node13" href="$classslamuk_1_1_edge.html#a41dcc8669ae69be2a5b73dca4ea51ceb" title="slamuk::Edge::setState" alt="" coords="523,376,682,403"/>
+</map>

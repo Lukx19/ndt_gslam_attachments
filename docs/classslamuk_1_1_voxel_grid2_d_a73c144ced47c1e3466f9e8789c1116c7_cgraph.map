@@ -1,0 +1,6 @@
+<map id="slamuk::VoxelGrid2D::translate" name="slamuk::VoxelGrid2D::translate">
+<area shape="rect" id="node2" href="$classslamuk_1_1_voxel_grid2_d.html#a6b50e09294eaf092b834790d2531d961" title="slamuk::VoxelGrid2D\l::left" alt="" coords="209,5,355,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_voxel_grid2_d.html#aeab398e11f66dea798ac782799eaa362" title="slamuk::VoxelGrid2D\l::right" alt="" coords="209,71,355,112"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_voxel_grid2_d.html#a1643fdd7e75bbb3b43384705ee478ab6" title="slamuk::VoxelGrid2D::up" alt="" coords="199,137,365,163"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_voxel_grid2_d.html#ae67a7e867ee8a7821d410fb6d587ba23" title="slamuk::VoxelGrid2D\l::down" alt="" coords="209,188,355,229"/>
+</map>

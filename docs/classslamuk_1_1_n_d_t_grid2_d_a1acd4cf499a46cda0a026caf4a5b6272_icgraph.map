@@ -1,0 +1,6 @@
+<map id="slamuk::NDTGrid2D::mergeInTraced" name="slamuk::NDTGrid2D::mergeInTraced">
+<area shape="rect" id="node2" href="$classslamuk_1_1_n_d_t_grid2_d.html#aa96bd9816f70186a91cce291d5a175a4" title="Creates NDT grid from point cloud and update occupancy of empty spaces. " alt="" coords="202,5,349,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_n_d_t_mapper.html#a9e4a624c6777848dfd10b2c42721a039" title="Merge two frames into one. " alt="" coords="200,71,351,112"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_n_d_t_mapper.html#a270531b14dfe2091232d78f036dbc236" title="Redraws whole map. " alt="" coords="200,136,351,177"/>
+<area shape="rect" id="node5" href="$ndt__grid2d__merging_8cpp.html#a6d298d4c3a7dec582f085c01ddfb7146" title="testMapMerging" alt="" coords="399,143,513,170"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="slamuk::NdtScanmatcher::NdtScanmatcher" name="slamuk::NdtScanmatcher::NdtScanmatcher">
+<area shape="rect" id="node2" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#a3e031b8275f1c2c7838d8695c5188856" title="Set/change the newton line search maximum step length. " alt="" coords="241,5,459,47"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#ae6f67c8f184b25baa9934efbd7884a28" title="pcl::D2DNormalDistributions\lTransform2DRobust::setOulierRatio" alt="" coords="235,71,465,112"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#ac676e410d51a0dc58c823cbc8b77a276" title="pcl::D2DNormalDistributions\lTransform2DRobust::setRejectionLimit" alt="" coords="226,136,474,177"/>
+<area shape="rect" id="node5" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#a2cae638dd84b642751bda0399ced587b" title="pcl::D2DNormalDistributions\lTransform2DRobust::setRotationRange" alt="" coords="224,201,476,243"/>
+</map>

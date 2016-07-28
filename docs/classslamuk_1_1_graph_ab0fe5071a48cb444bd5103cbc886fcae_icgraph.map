@@ -1,0 +1,10 @@
+<map id="slamuk::Graph::addNode" name="slamuk::Graph::addNode">
+<area shape="rect" id="node2" href="$classslamuk_1_1_graph.html#a7f13232570fe9d7acc9a7abb01fa3837" title="slamuk::Graph\&lt; Slam2d\l_Policy, T \&gt;::Graph" alt="" coords="228,5,391,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_slam2_d.html#acd854fe5404bf3d52517004c2a2782cd" title="slamuk::Slam2D::addPose" alt="" coords="220,71,399,98"/>
+<area shape="rect" id="node5" href="$pose__graph__test_8cpp.html#a09f24d58957c74c857d56e7f99e1194d" title="prepareGraph" alt="" coords="259,122,359,149"/>
+<area shape="rect" id="node7" href="$pose__graph__test_8cpp.html#ab11c5b343410d1d5c411eaeb5feb3b3e" title="prepareGraphIncrementaly" alt="" coords="222,173,397,199"/>
+<area shape="rect" id="node9" href="$pose__graph__test_8cpp.html#ac30d6205c478db2891487e5c333cc5d3" title="TEST" alt="" coords="281,223,337,250"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_slam2_d.html#a0d044059656d51c7c2aa71e75fc80ed1" title="slamuk::Slam2D::~Slam2D" alt="" coords="447,71,629,98"/>
+<area shape="rect" id="node6" href="$pose__graph__test_8cpp.html#a8d8b8f7c1e718a4da89500ede9c34b8d" title="TEST" alt="" coords="510,122,566,149"/>
+<area shape="rect" id="node8" href="$pose__graph__test_8cpp.html#a22dd141f231adc8886235ba9cab84c2b" title="TEST" alt="" coords="510,173,566,199"/>
+</map>

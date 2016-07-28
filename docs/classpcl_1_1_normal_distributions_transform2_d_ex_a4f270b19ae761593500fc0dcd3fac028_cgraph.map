@@ -1,0 +1,13 @@
+<map id="pcl::NormalDistributionsTransform2DEx::calcPointScore" name="pcl::NormalDistributionsTransform2DEx::calcPointScore">
+<area shape="rect" id="node2" href="$structpcl_1_1ndt__reg_1_1_score_and_derivatives.html#acd667d26071ef630765198bd7a2cfce2" title="pcl::ndt_reg::ScoreAndDerivatives\l::Zero" alt="" coords="813,83,1035,124"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#ad0bc89270b117a89bf6c95d95d2f311b" title="pcl::NormalDistributions\lTransform2DEx::computeStepLengthMT" alt="" coords="263,163,519,204"/>
+<area shape="rect" id="node4" href="$namespacepcl_1_1ndt__reg.html#a5d4cfc1bde09c9aa51f8a4b9733590c5" title="Auxilary function used to determin endpoints of More&#45;Thuente interval. " alt="" coords="569,32,763,73"/>
+<area shape="rect" id="node5" href="$namespacepcl_1_1ndt__reg.html#a691771bb98c4bc35b50a375ee3d5cd7d" title="Auxilary function derivative used to determin endpoints of More&#45;Thuente interval. ..." alt="" coords="569,97,763,139"/>
+<area shape="rect" id="node6" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#a378abf2d61686d3a4206bd09a7874cc7" title="Estimate score, hessian and gradient for selected source point cloud based on given transformation..." alt="" coords="577,280,755,321"/>
+<area shape="rect" id="node11" href="$namespacepcl_1_1ndt__reg.html#a358d74015331dcc27ff2057c21903ed9" title="pcl::ndt_reg::trialValue\lSelectionMT" alt="" coords="591,163,741,204"/>
+<area shape="rect" id="node12" href="$namespacepcl_1_1ndt__reg.html#abb9967b77fc74f5bcbc13f8b013b43f5" title="pcl::ndt_reg::updateIntervalMT" alt="" coords="567,229,765,255"/>
+<area shape="rect" id="node7" href="$namespacepcl_1_1ndt__reg.html#a1ccc4e18503790adee6266a41b2d003a" title="pcl::ndt_reg::vecToMat" alt="" coords="847,258,1001,285"/>
+<area shape="rect" id="node8" href="$classslamuk_1_1_n_d_t_grid2_d.html#abefe25648d0ce26fc95586e05e98d8e0" title="Gets the k nearest neighbors with Gaussian information inside. " alt="" coords="847,309,1001,351"/>
+<area shape="rect" id="node9" href="$classslamuk_1_1_n_d_t_grid2_d.html#a6c874a91b277c5f405e5970b0cfe3615" title="slamuk::NDTGrid2D::\lgetKNearestNeighborsKDTree" alt="" coords="1083,309,1280,351"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_voxel_grid2_d.html#aea7e9aadf3ab4576292a233b193da993" title="slamuk::VoxelGrid2D\l::getCellPtr" alt="" coords="1328,309,1473,351"/>
+</map>

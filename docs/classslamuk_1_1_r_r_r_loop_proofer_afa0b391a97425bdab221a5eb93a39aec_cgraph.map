@@ -1,0 +1,6 @@
+<map id="slamuk::RRRLoopProofer::interClusterConsistent" name="slamuk::RRRLoopProofer::interClusterConsistent">
+<area shape="rect" id="node2" href="$classslamuk_1_1_r_r_r_loop_proofer.html#a908d60846c8bd824fe3f05fbb7eb3f81" title="slamuk::RRRLoopProofer\l::gatherEdges" alt="" coords="232,5,404,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1internal_1_1_clusterizer.html#ae2ded2464e2335c5ed2c06471d831de9" title="slamuk::internal::Clusterizer\l::getCluster" alt="" coords="459,35,644,76"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_r_r_r_loop_proofer.html#a1d1a7a98cc7d3fcdaacf2b84648909d4" title="slamuk::RRRLoopProofer\l::chi2" alt="" coords="232,123,404,164"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1internal_1_1_clusterizer.html#adcc4fccc143bc8eb678b041487956346" title="slamuk::internal::Clusterizer\l::getClusterID" alt="" coords="225,188,411,229"/>
+</map>

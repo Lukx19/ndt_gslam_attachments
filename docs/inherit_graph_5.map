@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classpcl_1_1_correlative_estimation.html" title="pcl::CorrelativeEstimation\l\&lt; typename FrameType::Point,\l typename FrameType::Point \&gt;" alt="" coords="166,5,369,61"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html" title="pcl::D2DNormalDistributions\lTransform2D\&lt; PointSource,\l PointTarget \&gt;" alt="" coords="173,85,362,141"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html" title="pcl::D2DNormalDistributions\lTransform2D\&lt; typename FrameType\l::Point, typename FrameType::Point \&gt;" alt="" coords="145,165,389,221"/>
+<area shape="rect" id="node5" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html" title="pcl::D2DNormalDistributions\lTransform2DRobust\&lt; typename\l FrameType::Point, typename\l FrameType::Point \&gt;" alt="" coords="163,246,371,317"/>
+<area shape="rect" id="node6" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html" title="pcl::NormalDistributions\lTransform2DEx\&lt; PointType,\l PointType, slamuk::NDTCell \&gt;" alt="" coords="166,341,369,397"/>
+<area shape="rect" id="node7" href="$classpcl_1_1_correlative_estimation.html" title="pcl::CorrelativeEstimation\l\&lt; PointSource, PointTarget \&gt;" alt="" coords="172,421,363,462"/>
+<area shape="rect" id="node8" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html" title="pcl::D2DNormalDistributions\lTransform2D\&lt; PointSource,\l PointTarget, CellType \&gt;" alt="" coords="173,485,362,541"/>
+<area shape="rect" id="node9" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html" title="pcl::D2DNormalDistributions\lTransform2DRobust\&lt; PointSource,\l PointTarget, CellType \&gt;" alt="" coords="154,565,381,621"/>
+<area shape="rect" id="node10" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html" title="pcl::NormalDistributions\lTransform2DEx\&lt; PointSource,\l PointTarget, CellType \&gt;" alt="" coords="167,645,367,701"/>
+</map>

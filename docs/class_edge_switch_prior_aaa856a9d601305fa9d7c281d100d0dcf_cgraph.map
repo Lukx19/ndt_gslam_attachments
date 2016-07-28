@@ -1,0 +1,7 @@
+<map id="EdgeSwitchPrior::EdgeSwitchPrior" name="EdgeSwitchPrior::EdgeSwitchPrior">
+<area shape="rect" id="node2" href="$class_edge_switch_prior.html#a938d03e4a08082c20633d6a33d748bac" title="EdgeSwitchPrior::read" alt="" coords="263,5,415,32"/>
+<area shape="rect" id="node3" href="$class_edge_switch_prior.html#a6c50e923532ad36ff19672155ce6e0c5" title="EdgeSwitchPrior::write" alt="" coords="262,56,417,83"/>
+<area shape="rect" id="node4" href="$class_edge_switch_prior.html#a81b227597bf405f99983acaf1ab887c2" title="EdgeSwitchPrior::linearize\lOplus" alt="" coords="252,107,427,149"/>
+<area shape="rect" id="node5" href="$class_edge_switch_prior.html#aa3c34e7d2417fcf08cad3fe45c0fcb6a" title="EdgeSwitchPrior::compute\lError" alt="" coords="251,173,428,214"/>
+<area shape="rect" id="node6" href="$class_vertex_switch_linear.html#abd1add20f722eaead693f0f24fe5e925" title="VertexSwitchLinear::x" alt="" coords="476,180,625,207"/>
+</map>

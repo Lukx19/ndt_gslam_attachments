@@ -1,0 +1,6 @@
+<map id="slamuk::Node::getDataObj" name="slamuk::Node::getDataObj">
+<area shape="rect" id="node2" href="$classslamuk_1_1_loop_detector.html#abd5752f59e4bc811b00349d6aea18d1e" title="slamuk::LoopDetector\l::genLoopClosures" alt="" coords="257,5,407,47"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_slam2_d.html#af60356d858394acf6c9348b0669865d3" title="slamuk::Slam2D::getPoseData" alt="" coords="231,71,433,98"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_slam2_d.html#a42f1fcf91f245225750015227a6781b5" title="slamuk::Slam2D::tryLoopClose" alt="" coords="481,13,685,39"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_slam2_d.html#a0d044059656d51c7c2aa71e75fc80ed1" title="slamuk::Slam2D::~Slam2D" alt="" coords="492,71,675,98"/>
+</map>

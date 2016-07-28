@@ -1,0 +1,12 @@
+<map id="slamuk::NDTGrid2D::getKNearestNeighborsVoxel" name="slamuk::NDTGrid2D::getKNearestNeighborsVoxel">
+<area shape="rect" id="node2" href="$classslamuk_1_1_n_d_t_grid2_d.html#a5ded23f007702c9fbc3af45acadd09e5" title="The radius search around certain point. Returns only cells with Gaussian inside. Includes all cells i..." alt="" coords="240,296,387,337"/>
+<area shape="rect" id="node9" href="$classslamuk_1_1_voxel_grid2_d.html#ae298fb269d538b61e04fa065b32d7ac7" title="slamuk::VoxelGrid2D\l::width" alt="" coords="639,424,784,465"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_voxel_grid2_d.html#a18b46155aa0412e623b6268df9b93f51" title="Gets the all cells around point in given radius. " alt="" coords="435,228,580,269"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_voxel_grid2_d.html#a8e65f23cbfb7c60ee92d4751cd13708b" title="Determines if point is inside of the grid&#39;s boundaries. " alt="" coords="843,16,988,57"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_voxel_grid2_d.html#a0b734277efe4771debc812be39a550f7" title="Determine if the cell at point position is occupied. " alt="" coords="639,45,784,86"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_voxel_grid2_d.html#a6b50e09294eaf092b834790d2531d961" title="slamuk::VoxelGrid2D\l::left" alt="" coords="639,110,784,152"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_voxel_grid2_d.html#a1643fdd7e75bbb3b43384705ee478ab6" title="slamuk::VoxelGrid2D::up" alt="" coords="628,176,795,203"/>
+<area shape="rect" id="node8" href="$classslamuk_1_1_voxel_grid2_d.html#aeab398e11f66dea798ac782799eaa362" title="slamuk::VoxelGrid2D\l::right" alt="" coords="639,228,784,269"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_voxel_grid2_d.html#ae67a7e867ee8a7821d410fb6d587ba23" title="slamuk::VoxelGrid2D\l::down" alt="" coords="639,293,784,334"/>
+<area shape="rect" id="node11" href="$classslamuk_1_1_voxel_grid2_d.html#a83e0ec67d3e38e6bdfecc8cfd2f13774" title="slamuk::VoxelGrid2D\l::height" alt="" coords="639,358,784,400"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="slamuk::Slam2D::addSwitchConstrainEdge" name="slamuk::Slam2D::addSwitchConstrainEdge">
+<area shape="rect" id="node2" href="$class_vertex_switch_linear.html#abe9275adad4affcba81b2f77ba90e4de" title="VertexSwitchLinear\l::setEstimate" alt="" coords="249,5,383,47"/>
+<area shape="rect" id="node3" href="$class_edge_s_e2_switchable.html#a1036fed9b8a2aca47561a7e91383dc8d" title="EdgeSE2Switchable::\lsetMeasurement" alt="" coords="241,71,391,112"/>
+</map>

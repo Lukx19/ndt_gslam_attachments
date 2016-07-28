@@ -1,0 +1,10 @@
+<map id="pcl::D2DNormalDistributionsTransform2D::calcScore" name="pcl::D2DNormalDistributionsTransform2D::calcScore">
+<area shape="rect" id="node2" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#aa0ee49b5334cc630df48be6db6f97cc4" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="1095,195,1343,251"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#aa9f558d61a4bafe418723199d7679ebb" title="pcl::D2DNormalDistributions\lTransform2D::computeSingleGrid" alt="" coords="537,170,751,211"/>
+<area shape="rect" id="node7" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#adc103759e418bdf6974455a07c064411" title="pcl::D2DNormalDistributions\lTransform2D::computeStepLengthMT" alt="" coords="243,229,483,270"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ac98d3f05907fa909a42ca19834405137" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="805,53,1047,94"/>
+<area shape="rect" id="node5" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a4758bc44ff565f2d4c90cf81b44ba23f" title="Initialize cell_sizes. First grid will have cells of base_size length.base_size Other layers have cel..." alt="" coords="1124,85,1313,141"/>
+<area shape="rect" id="node6" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ae8e52a8a8cfaa8997e9f96ce6dcd7228" title="Constructor. Sets outlier_ratio_ to 0.35, step_size_ to 0.05 and resolution_ to 1.0. " alt="" coords="1095,5,1342,61"/>
+<area shape="rect" id="node8" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ae80e6c6dd6bdce1adfa0f1252a7ad185" title="pcl::D2DNormalDistributions\lTransform2D::calcSourceCellScore" alt="" coords="531,287,757,329"/>
+<area shape="rect" id="node9" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a9973c6cb2c68499a1910a036da564389" title="pcl::D2DNormalDistributions\lTransform2D::computeDerivatives" alt="" coords="815,338,1037,379"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="slamuk::Node::getPose" name="slamuk::Node::getPose">
+<area shape="rect" id="node2" href="$classslamuk_1_1_loop_detector.html#abd5752f59e4bc811b00349d6aea18d1e" title="slamuk::LoopDetector\l::genLoopClosures" alt="" coords="235,5,385,47"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_slam2_d.html#a48beb64bcb3aa96cdd903d3d8d4bee6d" title="slamuk::Slam2D::getPoseLocation" alt="" coords="708,71,932,98"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_slam2_d.html#aaf17b78a3b4b023d6759cacfacb6e7ea" title="slamuk::Slam2D::updatePose\lGraph" alt="" coords="212,123,408,164"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_slam2_d.html#a42f1fcf91f245225750015227a6781b5" title="slamuk::Slam2D::tryLoopClose" alt="" coords="456,13,660,39"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_slam2_d.html#a0d044059656d51c7c2aa71e75fc80ed1" title="slamuk::Slam2D::~Slam2D" alt="" coords="980,122,1163,149"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_slam2_d.html#afa473f040e92ec9ad7df323bfa2cc611" title="slamuk::Slam2D::optimalize" alt="" coords="465,130,651,157"/>
+<area shape="rect" id="node8" href="$classslamuk_1_1_slam2_d.html#ac847caa0c847bccbd93816c945ab9aa5" title="slamuk::Slam2D::optimalize\lIterationaly" alt="" coords="727,173,913,215"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classslamuk_1_1_dataset_i_o.html#ae7be4b815d333b076b85ea3ead26ed3e" title="slamuk::DatasetIO::\lloadGraphToro" alt="" coords="104,5,244,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_dataset_i_o.html#a38d1287adf323b68d3c3ca4b17b0cf29" title="slamuk::DatasetIO::\lloadedNodes" alt="" coords="104,71,244,112"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_dataset_i_o.html#ae4c217210943e6486228634cff2060d9" title="slamuk::DatasetIO::\lloadedEdges" alt="" coords="104,136,244,177"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_dataset_i_o.html#a61ce472f088f893f64e8d91c9040692e" title="slamuk::DatasetIO::\lsaveGraphG2o" alt="" coords="104,201,244,243"/>
+</map>

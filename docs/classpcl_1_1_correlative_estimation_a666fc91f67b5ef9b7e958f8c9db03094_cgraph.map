@@ -1,0 +1,10 @@
+<map id="pcl::CorrelativeEstimation::computeTransformation" name="pcl::CorrelativeEstimation::computeTransformation">
+<area shape="rect" id="node2" href="$classpcl_1_1ml__corr_1_1_look_up_table.html#a8384e54c2df99684dff56fd8360008f4" title="pcl::ml_corr::LookUpTable\l::initGrid" alt="" coords="225,5,400,47"/>
+<area shape="rect" id="node4" href="$classpcl_1_1ml__corr_1_1_look_up_table.html#a73023a2ef9c3421abc4910fe49cacec6" title="pcl::ml_corr::LookUpTable\l::getScore" alt="" coords="225,71,400,112"/>
+<area shape="rect" id="node5" href="$classpcl_1_1ml__corr_1_1_look_up_table.html#a6b35320f68b9118674d0db881a60ed8e" title="pcl::ml_corr::LookUpTable\l::getMaxScore" alt="" coords="225,136,400,177"/>
+<area shape="rect" id="node6" href="$namespacepcl_1_1ml__corr.html#a753c9557d614dc0e24f89bf01a968e6a" title="pcl::ml_corr::rotatePoint\lCloud" alt="" coords="232,201,393,243"/>
+<area shape="rect" id="node7" href="$classpcl_1_1ml__corr_1_1_look_up_table.html#a1a91d5bc9c4cb752e376bf5e65cb76ac" title="pcl::ml_corr::LookUpTable\l::toIndexes" alt="" coords="225,267,400,308"/>
+<area shape="rect" id="node8" href="$classpcl_1_1ml__corr_1_1_look_up_table.html#a9e26e9f54e42c7985c80e3b985062daa" title="pcl::ml_corr::LookUpTable\l::transformIndexes" alt="" coords="225,332,400,373"/>
+<area shape="rect" id="node9" href="$classpcl_1_1_correlative_estimation.html#af7eff700fc4de0347473d976733c105e" title="pcl::CorrelativeEstimation\l::vecToMat" alt="" coords="227,397,399,439"/>
+<area shape="rect" id="node3" href="$namespacepcl.html#a4bbee8634e2f8cbedd1d49da7057e783" title="pcl::getMinMax2D" alt="" coords="448,13,576,39"/>
+</map>

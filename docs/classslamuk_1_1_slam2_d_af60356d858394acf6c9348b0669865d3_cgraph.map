@@ -1,0 +1,4 @@
+<map id="slamuk::Slam2D::getPoseData" name="slamuk::Slam2D::getPoseData">
+<area shape="rect" id="node2" href="$classslamuk_1_1_graph.html#a7117f3863fbd2c1541afc31a4718f659" title="slamuk::Graph::getNode" alt="" coords="263,5,427,32"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_node.html#a8abd61f0dc557ef1333f3bb296b5f659" title="slamuk::Node::getDataObj" alt="" coords="256,56,433,83"/>
+</map>

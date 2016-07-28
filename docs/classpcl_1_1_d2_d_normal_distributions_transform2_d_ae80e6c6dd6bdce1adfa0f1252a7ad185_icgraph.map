@@ -1,0 +1,10 @@
+<map id="pcl::D2DNormalDistributionsTransform2D::calcSourceCellScore" name="pcl::D2DNormalDistributionsTransform2D::calcSourceCellScore">
+<area shape="rect" id="node2" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#aa0ee49b5334cc630df48be6db6f97cc4" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="1627,116,1875,172"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a89f656d41c24dd75272e16918e001e15" title="pcl::D2DNormalDistributions\lTransform2D::calcScore" alt="" coords="549,163,739,205"/>
+<area shape="rect" id="node9" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a9973c6cb2c68499a1910a036da564389" title="pcl::D2DNormalDistributions\lTransform2D::computeDerivatives" alt="" coords="280,46,501,87"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#aa9f558d61a4bafe418723199d7679ebb" title="pcl::D2DNormalDistributions\lTransform2D::computeSingleGrid" alt="" coords="1075,155,1289,197"/>
+<area shape="rect" id="node8" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#adc103759e418bdf6974455a07c064411" title="pcl::D2DNormalDistributions\lTransform2D::computeStepLengthMT" alt="" coords="787,105,1027,146"/>
+<area shape="rect" id="node5" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ac98d3f05907fa909a42ca19834405137" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="1337,273,1579,314"/>
+<area shape="rect" id="node6" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a4758bc44ff565f2d4c90cf81b44ba23f" title="Initialize cell_sizes. First grid will have cells of base_size length.base_size Other layers have cel..." alt="" coords="1656,305,1845,361"/>
+<area shape="rect" id="node7" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ae8e52a8a8cfaa8997e9f96ce6dcd7228" title="Constructor. Sets outlier_ratio_ to 0.35, step_size_ to 0.05 and resolution_ to 1.0. " alt="" coords="1627,225,1874,281"/>
+</map>

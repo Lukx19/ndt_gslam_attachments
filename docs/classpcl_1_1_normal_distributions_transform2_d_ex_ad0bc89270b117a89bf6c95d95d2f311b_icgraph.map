@@ -1,0 +1,8 @@
+<map id="pcl::NormalDistributionsTransform2DEx::computeStepLengthMT" name="pcl::NormalDistributionsTransform2DEx::computeStepLengthMT">
+<area shape="rect" id="node2" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#ad480d22646e6b3c7e10ab725a480fe9f" title="pcl::NormalDistributions\lTransform2DEx\&lt; PointType,\l PointType, slamuk::NDTCell\l \&gt;::initCellSizes" alt="" coords="813,10,1004,80"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#af293d18a0e3d25b70d4d7762f0534605" title="pcl::NormalDistributions\lTransform2DEx::computeSingleGrid" alt="" coords="793,123,1024,164"/>
+<area shape="rect" id="node6" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#a4f270b19ae761593500fc0dcd3fac028" title="Estimate score, hessian and gradient for selected point. " alt="" coords="309,32,519,74"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#a651c19e4e54d59654f74d23b576b590f" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="1105,68,1296,139"/>
+<area shape="rect" id="node5" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#a18c9032a021e6bffeaaf5a5b680295b1" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="1072,163,1329,204"/>
+<area shape="rect" id="node7" href="$classpcl_1_1_normal_distributions_transform2_d_ex.html#a378abf2d61686d3a4206bd09a7874cc7" title="Estimate score, hessian and gradient for selected source point cloud based on given transformation..." alt="" coords="567,83,745,124"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="slamuk::Slam2D::addLastConstrain" name="slamuk::Slam2D::addLastConstrain">
+<area shape="rect" id="node2" href="$classslamuk_1_1_slam2_d.html#a45c85a03d7ef31a0d938a7eb17185054" title="slamuk::Slam2D::addConstrain" alt="" coords="283,107,487,133"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_graph.html#a7117f3863fbd2c1541afc31a4718f659" title="slamuk::Graph::getNode" alt="" coords="536,5,700,32"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_graph.html#a9d7c84c2466ccda32c666863df193935" title="slamuk::Graph::addEdge" alt="" coords="535,56,701,83"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_graph.html#a1a73c0036852c35af7c2a6225eccd8a4" title="slamuk::Graph::getEdge" alt="" coords="537,107,699,133"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_edge.html#a41dcc8669ae69be2a5b73dca4ea51ceb" title="slamuk::Edge::setState" alt="" coords="539,157,697,184"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_edge.html#ac1c233590f968817e72de609a696c5cc" title="slamuk::Edge::setType" alt="" coords="540,208,696,235"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="slamuk::ISlamAlgorithm::~ISlamAlgorithm" name="slamuk::ISlamAlgorithm::~ISlamAlgorithm">
+<area shape="rect" id="node2" href="$classslamuk_1_1_i_slam_algorithm.html#a0477f07dcfd76d2b7ddce65cf70609ef" title="slamuk::ISlamAlgorithm\l::update" alt="" coords="240,5,401,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_i_slam_algorithm.html#a476a006258aded6278e0466f77c984c5" title="slamuk::ISlamAlgorithm\l::getOccupancyGrid" alt="" coords="240,71,401,112"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_i_slam_algorithm.html#a5eabe3e982f65a04940662e8a69815f4" title="slamuk::ISlamAlgorithm\l::getGraphSerialized" alt="" coords="240,136,401,177"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_i_slam_algorithm.html#a7de79fa69119cf3f12513fc11dca055b" title="slamuk::ISlamAlgorithm\l::getNDTMap" alt="" coords="240,201,401,243"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_i_slam_algorithm.html#abc26b25291e12fee8763e0e1744b49ef" title="slamuk::ISlamAlgorithm\l::getPclMap" alt="" coords="240,267,401,308"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_i_slam_algorithm.html#af6d7f373dc3a7e10a5d80f6b90e8dffe" title="slamuk::ISlamAlgorithm\l::getPclMap2" alt="" coords="240,332,401,373"/>
+<area shape="rect" id="node8" href="$classslamuk_1_1_i_slam_algorithm.html#a817380e3a1968e81a1dbc3b4650dbc62" title="slamuk::ISlamAlgorithm\l::setRunWindowRadius" alt="" coords="240,397,401,439"/>
+<area shape="rect" id="node9" href="$classslamuk_1_1_i_slam_algorithm.html#a4a36bf12993285c5aed77b46ade307ca" title="slamuk::ISlamAlgorithm\l::setGenerationDistance" alt="" coords="239,463,402,504"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_i_slam_algorithm.html#a0f6474afad0f30f266e84a28e4d4b7b3" title="slamuk::ISlamAlgorithm\l::setLoopClosureMaxDist" alt="" coords="235,528,406,569"/>
+<area shape="rect" id="node11" href="$classslamuk_1_1_i_slam_algorithm.html#abc8baf8460bf0cceec701b8102a5078c" title="slamuk::ISlamAlgorithm\l::setLoopClosureMinDist" alt="" coords="237,593,404,635"/>
+<area shape="rect" id="node12" href="$classslamuk_1_1_i_slam_algorithm.html#a132987ac7f345783a4b0b2ca464ea96c" title="slamuk::ISlamAlgorithm\l::setLoopClosureScoreThreshold" alt="" coords="215,659,427,700"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="slamuk::LoopDetector::genLoopClosures" name="slamuk::LoopDetector::genLoopClosures">
+<area shape="rect" id="node2" href="$structslamuk_1_1internal_1_1_edge_cov.html#a0fe387e941f12e32b53da9fa371ece4e" title="slamuk::internal::EdgeCov\l::EdgeCov" alt="" coords="209,5,385,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_node.html#abe53a1ecc32be2bdb2ef2757bb343570" title="slamuk::Node::getPose" alt="" coords="218,71,377,98"/>
+<area shape="rect" id="node4" href="$namespaceeigt.html#ab1d0a592cbf7da2c312101241139e5a8" title="eigt::getTransFromPose" alt="" coords="217,122,378,149"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_node.html#a8abd61f0dc557ef1333f3bb296b5f659" title="slamuk::Node::getDataObj" alt="" coords="209,173,386,199"/>
+<area shape="rect" id="node6" href="$namespaceeigt.html#a7106831976c91028d6fba7760f7c801d" title="eigt::getPoseFromTransform" alt="" coords="204,223,391,250"/>
+</map>

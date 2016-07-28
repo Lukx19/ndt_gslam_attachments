@@ -1,0 +1,5 @@
+<map id="pcl::D2DNormalDistributionsTransform2D::computeTransformation" name="pcl::D2DNormalDistributionsTransform2D::computeTransformation">
+<area shape="rect" id="node2" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a4758bc44ff565f2d4c90cf81b44ba23f" title="Initialize cell_sizes. First grid will have cells of base_size length.base_size Other layers have cel..." alt="" coords="324,5,513,61"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#aa0ee49b5334cc630df48be6db6f97cc4" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="295,85,543,141"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ae8e52a8a8cfaa8997e9f96ce6dcd7228" title="Constructor. Sets outlier_ratio_ to 0.35, step_size_ to 0.05 and resolution_ to 1.0. " alt="" coords="295,165,542,221"/>
+</map>

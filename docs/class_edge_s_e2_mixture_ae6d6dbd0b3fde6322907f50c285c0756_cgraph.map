@@ -1,0 +1,6 @@
+<map id="EdgeSE2Mixture::EdgeSE2Mixture" name="EdgeSE2Mixture::EdgeSE2Mixture">
+<area shape="rect" id="node2" href="$class_edge_s_e2_mixture.html#ac5e95f016f335704de63b4bca803e4cd" title="EdgeSE2Mixture::initialize\lComponents" alt="" coords="280,5,455,47"/>
+<area shape="rect" id="node3" href="$class_edge_s_e2_mixture.html#a72abed5553eebbae1cc3703626ca7229" title="EdgeSE2Mixture::computeBestEdge" alt="" coords="503,13,737,39"/>
+<area shape="rect" id="node4" href="$class_edge_s_e2_mixture.html#a385794bdbe12c3487619fa68c63759da" title="EdgeSE2Mixture::computeError" alt="" coords="785,13,992,39"/>
+<area shape="rect" id="node5" href="$class_edge_s_e2_mixture.html#a7120c9c7f24a46b37c178089a3e8cd60" title="EdgeSE2Mixture::UpdateBelief" alt="" coords="1040,13,1243,39"/>
+</map>

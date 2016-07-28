@@ -1,0 +1,5 @@
+<map id="pcl::D2DNormalDistributionsTransform2D::initCellSizes" name="pcl::D2DNormalDistributionsTransform2D::initCellSizes">
+<area shape="rect" id="node2" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#a3a2b0608b966e1da7e06a71177631340" title="pcl::D2DNormalDistributions\lTransform2D\&lt; PointSource,\l PointTarget \&gt;::setNumLayers" alt="" coords="267,5,465,61"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#affdaaa438d390202b4a84b3a226a44f0" title="Set/change the voxel grid cell size for the finnest grid. Other grids will have higher length of cell..." alt="" coords="271,85,461,141"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d.html#ae8e52a8a8cfaa8997e9f96ce6dcd7228" title="Constructor. Sets outlier_ratio_ to 0.35, step_size_ to 0.05 and resolution_ to 1.0. " alt="" coords="243,165,489,221"/>
+</map>

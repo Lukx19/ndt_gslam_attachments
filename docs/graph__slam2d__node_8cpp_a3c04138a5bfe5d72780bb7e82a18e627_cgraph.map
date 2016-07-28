@@ -1,0 +1,19 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classslamuk_1_1_graph_slam_node.html#ab260d09cdd5e3d6cb9be50cfe6e41db9" title="slamuk::GraphSlamNode\l::start" alt="" coords="104,464,272,505"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_i_slam_algorithm.html#a817380e3a1968e81a1dbc3b4650dbc62" title="slamuk::ISlamAlgorithm\l::setRunWindowRadius" alt="" coords="345,5,507,47"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_i_slam_algorithm.html#a4a36bf12993285c5aed77b46ade307ca" title="slamuk::ISlamAlgorithm\l::setGenerationDistance" alt="" coords="345,71,507,112"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_i_slam_algorithm.html#a0f6474afad0f30f266e84a28e4d4b7b3" title="slamuk::ISlamAlgorithm\l::setLoopClosureMaxDist" alt="" coords="341,136,511,177"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_i_slam_algorithm.html#abc8baf8460bf0cceec701b8102a5078c" title="slamuk::ISlamAlgorithm\l::setLoopClosureMinDist" alt="" coords="343,201,509,243"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_i_slam_algorithm.html#a132987ac7f345783a4b0b2ca464ea96c" title="slamuk::ISlamAlgorithm\l::setLoopClosureScoreThreshold" alt="" coords="320,267,532,308"/>
+<area shape="rect" id="node8" href="$namespaceeigt.html#a7106831976c91028d6fba7760f7c801d" title="eigt::getPoseFromTransform" alt="" coords="333,333,519,359"/>
+<area shape="rect" id="node9" href="$namespaceeigt.html#a0059c3bf6fc41992c08f37e20bf99945" title="eigt::convertToTransform" alt="" coords="343,383,509,410"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_i_slam_algorithm.html#a0477f07dcfd76d2b7ddce65cf70609ef" title="slamuk::ISlamAlgorithm\l::update" alt="" coords="345,435,507,476"/>
+<area shape="rect" id="node11" href="$namespaceeigt.html#ab1d0a592cbf7da2c312101241139e5a8" title="eigt::getTransFromPose" alt="" coords="345,501,507,527"/>
+<area shape="rect" id="node12" href="$classslamuk_1_1_i_slam_algorithm.html#a7de79fa69119cf3f12513fc11dca055b" title="slamuk::ISlamAlgorithm\l::getNDTMap" alt="" coords="345,552,507,593"/>
+<area shape="rect" id="node13" href="$classslamuk_1_1_i_slam_algorithm.html#a476a006258aded6278e0466f77c984c5" title="slamuk::ISlamAlgorithm\l::getOccupancyGrid" alt="" coords="345,617,507,659"/>
+<area shape="rect" id="node14" href="$classslamuk_1_1_i_slam_algorithm.html#af6d7f373dc3a7e10a5d80f6b90e8dffe" title="slamuk::ISlamAlgorithm\l::getPclMap2" alt="" coords="345,683,507,724"/>
+<area shape="rect" id="node15" href="$classslamuk_1_1_i_slam_algorithm.html#abc26b25291e12fee8763e0e1744b49ef" title="slamuk::ISlamAlgorithm\l::getPclMap" alt="" coords="345,748,507,789"/>
+<area shape="rect" id="node16" href="$classslamuk_1_1_i_slam_algorithm.html#a5eabe3e982f65a04940662e8a69815f4" title="slamuk::ISlamAlgorithm\l::getGraphSerialized" alt="" coords="345,813,507,855"/>
+<area shape="rect" id="node17" href="$namespaceeigt.html#a04db916789e4dea722320faf6db5f3c9" title="eigt::getAngle" alt="" coords="375,879,477,906"/>
+<area shape="rect" id="node18" href="$namespaceeigt.html#a35428cce41a05ce0fdab759dc5c54de2" title="eigt::getDisplacement" alt="" coords="351,930,501,957"/>
+</map>

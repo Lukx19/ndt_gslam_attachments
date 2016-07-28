@@ -1,0 +1,9 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node2" href="$namespaceeigt.html#a15277f774d432d611fe50f7313c03377" title="Calculates transformation between inputed poses. " alt="" coords="133,5,273,32"/>
+<area shape="rect" id="node3" href="$namespaceeigt.html#a04db916789e4dea722320faf6db5f3c9" title="eigt::getAngle" alt="" coords="151,56,254,83"/>
+<area shape="rect" id="node4" href="$namespaceeigt.html#a789bfba989add7bd529348be5363f529" title="eigt::getAngleDiffrence" alt="" coords="125,107,280,133"/>
+<area shape="rect" id="node6" href="$namespaceeigt.html#a35428cce41a05ce0fdab759dc5c54de2" title="eigt::getDisplacement" alt="" coords="128,157,277,184"/>
+<area shape="rect" id="node7" href="$namespaceeigt.html#a7106831976c91028d6fba7760f7c801d" title="eigt::getPoseFromTransform" alt="" coords="109,208,296,235"/>
+<area shape="rect" id="node8" href="$namespaceeigt.html#ae5e7c98ae440de9344632e8e159ba13d" title="eigt::transformPose" alt="" coords="135,259,271,285"/>
+<area shape="rect" id="node5" href="$namespaceeigt.html#a0059c3bf6fc41992c08f37e20bf99945" title="eigt::convertToTransform" alt="" coords="344,107,509,133"/>
+</map>

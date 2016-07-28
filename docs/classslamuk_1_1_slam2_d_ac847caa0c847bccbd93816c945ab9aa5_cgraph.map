@@ -1,0 +1,6 @@
+<map id="slamuk::Slam2D::optimalizeIterationaly" name="slamuk::Slam2D::optimalizeIterationaly">
+<area shape="rect" id="node2" href="$classslamuk_1_1_slam2_d.html#afa473f040e92ec9ad7df323bfa2cc611" title="slamuk::Slam2D::optimalize" alt="" coords="240,31,427,57"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_slam2_d.html#aaf17b78a3b4b023d6759cacfacb6e7ea" title="slamuk::Slam2D::updatePose\lGraph" alt="" coords="475,23,671,65"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_graph.html#a7117f3863fbd2c1541afc31a4718f659" title="slamuk::Graph::getNode" alt="" coords="719,5,883,32"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_node.html#abe53a1ecc32be2bdb2ef2757bb343570" title="slamuk::Node::getPose" alt="" coords="721,56,880,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="slamuk::VoxelGrid2D::rayTrace" name="slamuk::VoxelGrid2D::rayTrace">
+<area shape="rect" id="node2" href="$classslamuk_1_1_n_d_t_grid2_d.html#aa994f76b382d88b5765ee7001c6d39d7" title="Merge in another NDt grid. Apply occupancy update to identifie empty space. " alt="" coords="199,5,345,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_voxel_grid2_d.html#a43cf9e6838c1ea1a9fa806f8cc92f0d5" title="Enlarges the grid in all directions to the size based on parameters. If parameters are smaller than c..." alt="" coords="199,70,345,126"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_voxel_grid2_d.html#a25459c29af794ab1b9d1a0a55b0e2c39" title="Do ray&#45;tracing from the origin of the grid to the end point. " alt="" coords="199,150,345,206"/>
+<area shape="rect" id="node5" href="$voxel__grid2d__test_8cpp.html#a7ef41108792a58998176121c489ddaeb" title="TEST" alt="" coords="244,230,300,257"/>
+</map>

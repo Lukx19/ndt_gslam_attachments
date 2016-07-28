@@ -1,0 +1,7 @@
+<map id="pcl::D2DNormalDistributionsTransform2D::setCellSize" name="pcl::D2DNormalDistributionsTransform2D::setCellSize">
+<area shape="rect" id="node2" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#ab328054189ae850cf97093164f8ba8ca" title="Set/change the voxel grid cell size for largest grid(finest). Other grids will have smaller longer ce..." alt="" coords="279,5,495,76"/>
+<area shape="rect" id="node3" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#ab85616877259247ffbbf057811f667ac" title="Constructor. Sets outlier_ratio_ to 0.35, step_size_ to 0.05 and resolution_ to 1.0. " alt="" coords="243,101,532,157"/>
+<area shape="rect" id="node5" href="$ndt__grid2d__merging_8cpp.html#a40ccaaf3df0e63e553742a3e9a2f4744" title="runningWindow" alt="" coords="332,182,443,209"/>
+<area shape="rect" id="node4" href="$classpcl_1_1_d2_d_normal_distributions_transform2_d_robust.html#ac6806080bc090a6113aebadc6b3d7e01" title="Estimate the transformation and returns the transformed source (input) as output. ..." alt="" coords="580,91,865,161"/>
+<area shape="rect" id="node6" href="$ndt__grid2d__merging_8cpp.html#a48cc664dce6ccd6282298f65006cadfd" title="test" alt="" coords="701,186,745,213"/>
+</map>

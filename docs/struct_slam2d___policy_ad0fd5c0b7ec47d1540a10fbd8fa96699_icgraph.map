@@ -1,0 +1,5 @@
+<map id="Slam2d_Policy::transMatToVec" name="Slam2d_Policy::transMatToVec">
+<area shape="rect" id="node2" href="$classslamuk_1_1_slam2_d.html#a42f1fcf91f245225750015227a6781b5" title="slamuk::Slam2D::tryLoopClose" alt="" coords="257,5,461,32"/>
+<area shape="rect" id="node3" href="$struct_slam2d___policy.html#af5e881a0f9a192d1647ed852fff51633" title="Slam2d_Policy::calcError" alt="" coords="275,56,444,83"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_edge.html#aa4c825fce67fe6a6aaf2d0dafd29f291" title="slamuk::Edge::getError" alt="" coords="509,56,665,83"/>
+</map>

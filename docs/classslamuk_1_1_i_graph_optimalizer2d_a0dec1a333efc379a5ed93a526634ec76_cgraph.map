@@ -1,0 +1,20 @@
+<map id="slamuk::IGraphOptimalizer2d::~IGraphOptimalizer2d" name="slamuk::IGraphOptimalizer2d::~IGraphOptimalizer2d">
+<area shape="rect" id="node2" href="$classslamuk_1_1_i_graph_optimalizer2d.html#ae8d7b73966e17171093cfff259b27b69" title="slamuk::IGraphOptimalizer2d\l::optimalize" alt="" coords="244,5,435,47"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_i_graph_optimalizer2d.html#aa9498ad345969c63f244cbd596a40517" title="slamuk::IGraphOptimalizer2d\l::optimalizeIterationaly" alt="" coords="244,71,435,112"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a599c708aed02556704cbe044b43591fb" title="slamuk::IGraphOptimalizer2d\l::calcTotalGraphError" alt="" coords="244,136,435,177"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a65bb5502b8c1c5c36a86c6d65a13c02e" title="slamuk::IGraphOptimalizer2d\l::addPose" alt="" coords="244,201,435,243"/>
+<area shape="rect" id="node6" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a35085873db1ae9c51e8445ef5b5f396c" title="slamuk::IGraphOptimalizer2d\l::addConstrain" alt="" coords="244,267,435,308"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_i_graph_optimalizer2d.html#ab04cbb2e469382b6a4e28240b0eadb97" title="slamuk::IGraphOptimalizer2d\l::addLastConstrain" alt="" coords="244,332,435,373"/>
+<area shape="rect" id="node8" href="$classslamuk_1_1_i_graph_optimalizer2d.html#abd97049d9bbb9a198d2c0b4ff7a3f365" title="slamuk::IGraphOptimalizer2d\l::tryLoopClose" alt="" coords="244,397,435,439"/>
+<area shape="rect" id="node9" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a70cf3661b00f98bd985144902b733ba6" title="slamuk::IGraphOptimalizer2d\l::getPoseLocation" alt="" coords="244,463,435,504"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_i_graph_optimalizer2d.html#afe3c4b35d9ce6e9f9f636ed39f823943" title="slamuk::IGraphOptimalizer2d\l::getPoseData" alt="" coords="244,528,435,569"/>
+<area shape="rect" id="node11" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a8903a44f942d58d61712633bd3dba8a3" title="slamuk::IGraphOptimalizer2d\l::getConstrainTransform" alt="" coords="244,593,435,635"/>
+<area shape="rect" id="node12" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a82a93ec9250f580fb9cb682f503a1dab" title="slamuk::IGraphOptimalizer2d\l::getConstrainInformMat" alt="" coords="244,659,435,700"/>
+<area shape="rect" id="node13" href="$classslamuk_1_1_i_graph_optimalizer2d.html#ad98a5039572546dd5785bcf31c21540c" title="slamuk::IGraphOptimalizer2d\l::getConstrainPoses" alt="" coords="244,724,435,765"/>
+<area shape="rect" id="node14" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a4190360f168be9da89a30ab1a35fe664" title="slamuk::IGraphOptimalizer2d\l::setEuclideanMaxError" alt="" coords="244,789,435,831"/>
+<area shape="rect" id="node15" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a77bbd9a0ceee10a6b7cf97182e80c421" title="slamuk::IGraphOptimalizer2d\l::setMaxIterations" alt="" coords="244,855,435,896"/>
+<area shape="rect" id="node16" href="$classslamuk_1_1_i_graph_optimalizer2d.html#afa47f3b047f08609b06f8bacbc8a4f89" title="slamuk::IGraphOptimalizer2d\l::setLoopGenerationMinDist" alt="" coords="244,920,435,961"/>
+<area shape="rect" id="node17" href="$classslamuk_1_1_i_graph_optimalizer2d.html#a79a92c21654dfe5c97de084ab8a40b34" title="slamuk::IGraphOptimalizer2d\l::setLoopGenerationMaxDist" alt="" coords="244,985,435,1027"/>
+<area shape="rect" id="node18" href="$classslamuk_1_1_i_graph_optimalizer2d.html#aaeb01918a6531cecec5ae56dff010bb6" title="slamuk::IGraphOptimalizer2d\l::setLoopRegistrationScore" alt="" coords="244,1051,435,1092"/>
+<area shape="rect" id="node19" href="$classslamuk_1_1_i_graph_optimalizer2d.html#abd8a37b41369660cab6a4deecac6440d" title="slamuk::IGraphOptimalizer2d\l::getGraphSerialized" alt="" coords="244,1116,435,1157"/>
+</map>

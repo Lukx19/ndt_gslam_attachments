@@ -1,0 +1,24 @@
+<map id="slamuk::NDTMapper::recalc" name="slamuk::NDTMapper::recalc">
+<area shape="rect" id="node2" href="$classslamuk_1_1_n_d_t_grid2_d.html#a26c6d83d50fadc2c8be747014e4e78e1" title="Removes all cells. Capacity and size stays the same. " alt="" coords="206,69,353,111"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_n_d_t_grid2_d.html#ae95208e139125941e593829b371a686e" title="Creates an occupancy grid message. " alt="" coords="205,135,353,176"/>
+<area shape="rect" id="node9" href="$classslamuk_1_1_n_d_t_grid2_d.html#a64e319609375de66ff54fb3723577414" title="Gets the means transformed to from local grid centric coordinate system into global coordinate system..." alt="" coords="204,200,355,241"/>
+<area shape="rect" id="node10" href="$classslamuk_1_1_n_d_t_grid2_d.html#a1acd4cf499a46cda0a026caf4a5b6272" title="Merges in point cloud based on it origin in wolrd coordiate system. Apply occupancy update to identif..." alt="" coords="206,287,353,328"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_voxel_grid2_d.html#a6b50e09294eaf092b834790d2531d961" title="slamuk::VoxelGrid2D\l::left" alt="" coords="421,5,567,47"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_voxel_grid2_d.html#a1643fdd7e75bbb3b43384705ee478ab6" title="slamuk::VoxelGrid2D::up" alt="" coords="411,71,577,98"/>
+<area shape="rect" id="node6" href="$namespaceeigt.html#a06571086c158d3983d92eb924516c804" title="eigt::transBtwFrames" alt="" coords="421,254,567,281"/>
+<area shape="rect" id="node7" href="$classslamuk_1_1_voxel_grid2_d.html#ae298fb269d538b61e04fa065b32d7ac7" title="slamuk::VoxelGrid2D\l::width" alt="" coords="421,123,567,164"/>
+<area shape="rect" id="node8" href="$classslamuk_1_1_voxel_grid2_d.html#a83e0ec67d3e38e6bdfecc8cfd2f13774" title="slamuk::VoxelGrid2D\l::height" alt="" coords="421,188,567,229"/>
+<area shape="rect" id="node11" href="$namespaceeigt.html#a68f377d243e6a92d1cb560fe437fdd38" title="eigt::convertFromTransform" alt="" coords="403,305,585,331"/>
+<area shape="rect" id="node12" href="$classslamuk_1_1_n_d_t_grid2_d.html#ad04c9364b9e3436030935f89cfbfb5fa" title="slamuk::NDTGrid2D::\lcreateGrid" alt="" coords="421,356,567,397"/>
+<area shape="rect" id="node13" href="$classslamuk_1_1_n_d_t_grid2_d.html#a4820acfb896ded9ce1e5e29063750ae0" title="Sets the cell size. " alt="" coords="633,173,780,215"/>
+<area shape="rect" id="node14" href="$classslamuk_1_1_n_d_t_grid2_d.html#a3c4dba5ad8d72bd30dd8a96087b16125" title="Sets the origin. " alt="" coords="633,239,780,280"/>
+<area shape="rect" id="node15" href="$namespacepcl.html#a4bbee8634e2f8cbedd1d49da7057e783" title="pcl::getMinMax2D" alt="" coords="643,305,771,331"/>
+<area shape="rect" id="node16" href="$classslamuk_1_1_n_d_t_grid2_d.html#a8129825fedb80d5d7409282546435987" title="Enlarges grid in all directions to size based on parameters. If parameters are smaller than current s..." alt="" coords="633,356,780,397"/>
+<area shape="rect" id="node17" href="$classslamuk_1_1_n_d_t_grid2_d.html#a693c38d7e90018c28d3672ab597e50e4" title="slamuk::NDTGrid2D::\laddPoint" alt="" coords="633,421,780,463"/>
+<area shape="rect" id="node21" href="$classslamuk_1_1_n_d_t_grid2_d.html#ac7e223ab8a6466712632f786ad6244ac" title="slamuk::NDTGrid2D::\lcomputeNDTCells" alt="" coords="633,487,780,528"/>
+<area shape="rect" id="node23" href="$classslamuk_1_1_voxel_grid2_d.html#a00ddc8176f62d0aa3d44bfdd257f6b31" title="Gets all initialized cells in the grid. " alt="" coords="634,552,779,593"/>
+<area shape="rect" id="node18" href="$classslamuk_1_1_voxel_grid2_d.html#a0b734277efe4771debc812be39a550f7" title="Determine if the cell at point position is occupied. " alt="" coords="828,356,973,397"/>
+<area shape="rect" id="node20" href="$classslamuk_1_1_voxel_grid2_d.html#ac94e46552e79a35b6f9ca5d2bd26ea24" title="Adds a cell on the specified position. " alt="" coords="828,421,973,463"/>
+<area shape="rect" id="node19" href="$classslamuk_1_1_voxel_grid2_d.html#a8e65f23cbfb7c60ee92d4751cd13708b" title="Determines if point is inside of the grid&#39;s boundaries. " alt="" coords="1021,356,1167,397"/>
+<area shape="rect" id="node22" href="$classslamuk_1_1_voxel_grid2_d.html#af93571b6ee352387e2f6ab81cecaa2d0" title="slamuk::VoxelGrid2D\l::getValidCellsPtr" alt="" coords="828,487,973,528"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="slamuk::Slam2D&lt; T &gt;" name="slamuk::Slam2D&lt; T &gt;">
+<area shape="rect" id="node2" href="$classslamuk_1_1_i_graph_optimalizer2d.html" title="Base interface for graph slam optimization. " alt="" coords="311,5,533,32"/>
+<area shape="rect" id="node3" href="$classslamuk_1_1_graph.html" title="slamuk::Graph\&lt; Slam2d\l_Policy, T \&gt;" alt="" coords="23,61,186,102"/>
+<area shape="rect" id="node4" href="$classslamuk_1_1_loop_detector.html" title="slamuk::LoopDetector\l\&lt; Slam2d_Policy, T \&gt;" alt="" coords="347,119,497,161"/>
+<area shape="rect" id="node5" href="$classslamuk_1_1_i_scanmatcher2d.html" title="slamuk::IScanmatcher2d\&lt; T \&gt;" alt="" coords="5,137,204,164"/>
+</map>
